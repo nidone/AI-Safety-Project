@@ -18,3 +18,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas leo sit
 - [Results](/results)
 - [Code and Analysis](/code)
 - [Conclusions](/conclusions)
+
+- ## Get Started
+
+To begin exploring this project, start with the [Methodology](/methodology) section, which outlines our approach to evaluating LLMs for youth safety.
+
+---
+
+[Next: Methodology](/methodology)
