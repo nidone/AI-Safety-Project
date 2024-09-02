@@ -34,6 +34,32 @@
     </main>
 
 <div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
+    <h3>Detailed Jekyll Debug Info:</h3>
+    <p>Current page: {{ page.url }} ({{ page.title }}) - Order: {{ page.order }}</p>
+    
+    <h4>All site files:</h4>
+    <ul>
+    {% for file in site.static_files %}
+        <li>{{ file.path }} - {{ file.modified_time }}</li>
+    {% endfor %}
+    </ul>
+    
+    <h4>All pages:</h4>
+    <ul>
+    {% for p in site.pages %}
+        <li>{{ p.path }} - Title: {{ p.title | default: 'No title' }} - URL: {{ p.url }} - Order: {{ p.order | default: 'No order' }}</li>
+    {% endfor %}
+    </ul>
+    
+    <h4>Site variables:</h4>
+    <ul>
+        <li>site.url: {{ site.url }}</li>
+        <li>site.baseurl: {{ site.baseurl }}</li>
+        <li>site.time: {{ site.time }}</li>
+    </ul>
+</div>
+    
+<div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
     <p>Footer Debug Info:</p>
     <p>Current page: {{ page.url }} ({{ page.title }}) - Order: {{ page.order }}</p>
     <p>All pages (including those without order):</p>
