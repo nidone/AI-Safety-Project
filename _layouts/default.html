@@ -46,8 +46,7 @@
     <header>
         <h1>AI Safety Project</h1>
         <nav>
-            {% set normalized_page_url = page.url[:-5] if page.url.endswith('.html') else page.url %}
-            {% for item in pages %}
+                {% assign normalized_page_url = page.url | replace: '.html', '' %}                {% for item in pages %}
                 {% if item.url == normalized_page.url %}
                     <span class="current">{{ item.title }}</span>
                 {% else %}
