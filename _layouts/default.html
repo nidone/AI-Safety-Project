@@ -9,45 +9,35 @@
         nav { margin-bottom: 20px; }
         nav a { margin-right: 15px; }
         .footer-nav { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px; }
-        .quick-nav { font-size: 0.9em; margin-top: 10px; }
-        .quick-nav .current { font-weight: bold; color: #333; text-decoration: none; }
-        /* Add this new style for the test element */
-        #layout-test {
-            background-color: yellow;
-            color: black;
-            padding: 10px;
-            margin: 10px 0;
-            font-weight: bold;
-        }
+        .current-page { font-weight: bold; }
     </style>
 </head>
 <body>
-    <nav>
-        {% for item in site.navigation %}
-            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        {% endfor %}
-    </nav>
-    <main>
-        {{ content }}
-    </main>
-    <div class="footer-nav">
-        {% if page.previous %}
-            <a href="{{ site.baseurl }}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
-        {% endif %}
-        {% if page.next %}
-            | <a href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
-        {% endif %}
-        
-        <div class="quick-nav">
+    <header>
+        <h1>AI Safety Project</h1>
+        <nav>
             {% for item in site.navigation %}
-                {% if forloop.first == false %} | {% endif %}
                 {% if page.url == item.url %}
-                    <span class="current">{{ item.title }}</span>
+                    <span class="current-page">{{ item.title }}</span>
                 {% else %}
                     <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
             {% endfor %}
-        </div>
-    </div>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer class="footer-nav">
+        {% if page.previous %}
+            <a href="{{ site.baseurl }}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
+        {% endif %}
+        {% if page.next %}
+            {% if page.previous %} | {% endif %}
+            <a href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
+        {% endif %}
+    </footer>
 </body>
 </html>
