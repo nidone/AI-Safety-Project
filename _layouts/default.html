@@ -37,8 +37,11 @@
     {% assign pages = site.navigation | sort: "order" %}
     {% assign current_index = -1 %}
     {% for item in pages %}
-        {% if item.url == page.url %}
+        {% assign item_url = item.url | relative_url %}
+        {% assign page_url = page.url | relative_url %}
+        {% if item_url == page_url or page_url contains item_url %}
             {% assign current_index = forloop.index0 %}
+            {% break %}
         {% endif %}
     {% endfor %}
 
@@ -64,6 +67,7 @@
     {% endfor %}
     </ul>
     <p>Current Index: {{ current_index }}</p>
+    <p>Current Page URL: {{ page.url | relative_url }}</p>
     {% if prev_page %}
         <p>Previous page: {{ prev_page.title }} ({{ prev_page.url }})</p>
     {% else %}
