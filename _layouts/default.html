@@ -35,41 +35,55 @@
 
 <div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
     <p>Footer Debug Info:</p>
-    <p>Current page: {{ page.url }} ({{ page.title }})</p>
+    <p>Current page: {{ page.url }} ({{ page.title }}) - Order: {{ page.order }}</p>
+    <p>All pages with order:</p>
+    <ul>
+    {% assign sorted_pages = site.pages | sort: "order" %}
+    {% for p in sorted_pages %}
+        {% if p.order %}
+            <li>{{ p.title }} ({{ p.url }}) - Order: {{ p.order }}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<footer class="footer-nav">
+    {% assign sorted_pages = site.pages | sort: "order" %}
+    {% assign prev_page = nil %}
+    {% assign next_page = nil %}
+    {% for p in sorted_pages %}
+        {% if p.order %}
+            {% if p.order > page.order %}
+                {% unless next_page %}
+                    {% assign next_page = p %}
+                {% endunless %}
+            {% elsif p.order < page.order %}
+                {% assign prev_page = p %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
     {% if prev_page %}
-        <p>Previous page: {{ prev_page.url }} ({{ prev_page.title }})</p>
+        <a href="{{ prev_page.url | relative_url }}">Previous: {{ prev_page.title }}</a>
+    {% endif %}
+    {% if next_page %}
+        {% if prev_page %} | {% endif %}
+        <a href="{{ next_page.url | relative_url }}">Next: {{ next_page.title }}</a>
+    {% endif %}
+</footer>
+
+<div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
+    <p>Navigation Result:</p>
+    {% if prev_page %}
+        <p>Previous page: {{ prev_page.title }} ({{ prev_page.url }}) - Order: {{ prev_page.order }}</p>
     {% else %}
         <p>No previous page</p>
     {% endif %}
     {% if next_page %}
-        <p>Next page: {{ next_page.url }} ({{ next_page.title }})</p>
+        <p>Next page: {{ next_page.title }} ({{ next_page.url }}) - Order: {{ next_page.order }}</p>
     {% else %}
         <p>No next page</p>
     {% endif %}
 </div>
-    
-    <footer class="footer-nav">
-        {% assign pages = site.pages | sort: "order" %}
-        {% for p in pages %}
-            {% if p.order %}
-                {% if p.url == page.url or p.url == page.url | remove: '.html' %}
-                    {% assign prev_page = prev %}
-                    {% assign next_page = next %}
-                {% endif %}
-                {% assign prev = p %}
-                {% if next_page == nil %}
-                    {% assign next = p %}
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    
-        {% if prev_page %}
-            <a href="{{ prev_page.url | relative_url }}">Previous: {{ prev_page.title }}</a>
-        {% endif %}
-        {% if next_page and next_page.url != page.url and next_page.url != page.url | remove: '.html' %}
-            {% if prev_page %} | {% endif %}
-            <a href="{{ next_page.url | relative_url }}">Next: {{ next_page.title }}</a>
-        {% endif %}
-    </footer>
 </body>
 </html>
