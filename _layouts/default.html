@@ -35,7 +35,7 @@
 <body>
     {% assign pages = site.navigation | sort: "order" %}
     {% assign current_index = 0 %}
-    {% assign normalized_page_url = page.url | replace: '.html', '' %}                {% for item in pages %}
+    {% assign normalized_page_url = page.url | replace: '.html', '' %} 
     {% for item in pages %}
         {% if item_url == normalized_page_url %}
             {% assign current_index = forloop.index %}
@@ -46,6 +46,7 @@
     <header>
         <h1>AI Safety Project</h1>
         <nav>
+            {% for item in pages %}
                 {% if item.url == normalized_page_url %}
                     <span class="current">{{ item.title }}</span>
                 {% else %}
