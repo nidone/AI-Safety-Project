@@ -33,6 +33,21 @@
         {{ content }}
     </main>
 
+<div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
+    <p>Footer Debug Info:</p>
+    <p>Current page: {{ page.url }} ({{ page.title }})</p>
+    {% if prev_page %}
+        <p>Previous page: {{ prev_page.url }} ({{ prev_page.title }})</p>
+    {% else %}
+        <p>No previous page</p>
+    {% endif %}
+    {% if next_page %}
+        <p>Next page: {{ next_page.url }} ({{ next_page.title }})</p>
+    {% else %}
+        <p>No next page</p>
+    {% endif %}
+</div>
+    
     <footer class="footer-nav">
         {% assign pages = site.pages | sort: "order" %}
         {% for p in pages %}
