@@ -78,7 +78,6 @@
         <p>Debug Info:</p>
         <p>Current page: {{ page.url }} ({{ page.title }})</p>
         <p>Current Index: {{ current_index }}</p>
-        {% assign current_index = 0 %}
         <P>Page URL: {{ page.url }} : {{ normalized_page_url }}</P> 
         {% for item in pages %}
             {% assign item_url = item.url | remove_first: site.baseurl %}
