@@ -7,7 +7,7 @@
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; }
         nav { margin-bottom: 20px; }
-        nav span { margin-right: 15px; }
+        nav a, span { margin-right: 15px; }
         .footer-nav { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px; }
         .current-page { font-weight: bold; }
     </style>
@@ -15,25 +15,16 @@
 <body>
     <header>
         <h1>AI Safety Project</h1>
-<div style="background-color: #f0f0f0; padding: 10px; margin-bottom: 20px; font-size: 12px;">
-    <p>Debug Info:</p>
-    <p>page.url: {{ page.url }}</p>
-    <p>page.url | relative_url: {{ page.url | relative_url }}</p>
-    {% for item in site.navigation %}
-        <p>item.url for {{ item.title }}: {{ item.url }}</p>
-        <p>item.url | relative_url for {{ item.title }}: {{ item.url | relative_url }}</p>
-    {% endfor %}
-</div>
-<nav>
-    {% for item in site.navigation %}
-        {% assign item_url = item.url | relative_url %}
-        {% assign page_url = page.url | relative_url %}
-        {% assign page_url_without_html = page_url | remove: '.html' %}
-        {% if item_url == page_url or item_url == page_url_without_html %}
-            <span class="current-page">{{ item.title }}</span>
-        {% else %}
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% endif %}
+            <nav>
+                {% for item in site.navigation %}
+                    {% assign item_url = item.url | relative_url %}
+                    {% assign page_url = page.url | relative_url %}
+                    {% assign page_url_without_html = page_url | remove: '.html' %}
+                    {% if item_url == page_url or item_url == page_url_without_html %}
+                        <span class="current-page">{{ item.title }}</span>
+                    {% else %}
+                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
     {% endfor %}
 </nav>
     </header>
