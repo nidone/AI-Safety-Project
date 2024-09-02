@@ -37,9 +37,8 @@
     {% assign pages = site.navigation | sort: "order" %}
     {% assign current_index = -1 %}
     {% for item in pages %}
-        {% assign item_url = item.url | prepend: site.baseurl | append: '/' | replace: '//', '/' %}
-        {% assign page_url = page.url | replace: '//', '/' %}
-        {% if item_url == page_url %}
+        {% assign item_url = item.url | remove_first: site.baseurl %}
+        {% if item_url == page.url %}
             {% assign current_index = forloop.index %}
             {% break %}
         {% endif %}
@@ -47,13 +46,13 @@
 
     {% if current_index > 1 %}
         {% assign prev_page = pages[current_index | minus: 2] %}
-        <a href="{{ prev_page.url | prepend: site.baseurl }}">Previous: {{ prev_page.title }}</a>
+        <a href="{{ prev_page.url | relative_url }}">Previous: {{ prev_page.title }}</a>
     {% endif %}
 
     {% if current_index < pages.size and current_index > 0 %}
         {% assign next_page = pages[current_index] %}
         {% if prev_page %} | {% endif %}
-        <a href="{{ next_page.url | prepend: site.baseurl }}">Next: {{ next_page.title }}</a>
+        <a href="{{ next_page.url | relative_url }}">Next: {{ next_page.title }}</a>
     {% endif %}
 </footer>
 
@@ -63,20 +62,20 @@
     <p>All navigation items:</p>
     <ul>
     {% for item in site.navigation %}
-        {% assign item_url = item.url | prepend: site.baseurl | append: '/' | replace: '//', '/' %}
+        {% assign item_url = item.url | remove_first: site.baseurl %}
         <li>{{ item.title }} ({{ item_url }}) - Order: {{ item.order }}</li>
     {% endfor %}
     </ul>
     <p>Current Index: {{ current_index }}</p>
-    <p>Current Page URL: {{ page.url | replace: '//', '/' }}</p>
+    <p>Current Page URL: {{ page.url }}</p>
     <p>Site Baseurl: {{ site.baseurl }}</p>
     {% if prev_page %}
-        <p>Previous page: {{ prev_page.title }} ({{ prev_page.url | prepend: site.baseurl }})</p>
+        <p>Previous page: {{ prev_page.title }} ({{ prev_page.url | relative_url }})</p>
     {% else %}
         <p>No previous page</p>
     {% endif %}
     {% if next_page %}
-        <p>Next page: {{ next_page.title }} ({{ next_page.url | prepend: site.baseurl }})</p>
+        <p>Next page: {{ next_page.title }} ({{ next_page.url | relative_url }})</p>
     {% else %}
         <p>No next page</p>
     {% endif %}
