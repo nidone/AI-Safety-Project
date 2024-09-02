@@ -20,7 +20,7 @@
                 {% if page.url == item.url %}
                     <span class="current-page">{{ item.title }}</span>
                 {% else %}
-                    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    <span><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></span>
                 {% endif %}
             {% endfor %}
         </nav>
