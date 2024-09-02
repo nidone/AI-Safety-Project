@@ -46,8 +46,9 @@
     <header>
         <h1>AI Safety Project</h1>
         <nav>
+            {% set normalized_page_url = page.url[:-5] if page.url.endswith('.html') else page.url %}
             {% for item in pages %}
-                {% if item.url == page.url %}
+                {% if item.url == normalized_page.url %}
                     <span class="current">{{ item.title }}</span>
                 {% else %}
                     <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
@@ -77,7 +78,7 @@
     <div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
         <p>Debug Info:</p>
         {% assign current_index = 0 %}
-        <P>Page URL: {{ page.url }}</P> 
+        <P>Page URL: {{ normalized_page.url }}</P> 
         {% for item in pages %}
             {% assign item_url = item.url | remove_first: site.baseurl %}
             <P>Item URL [{{ forloop.index }}]: {{item_url}}</P> 
