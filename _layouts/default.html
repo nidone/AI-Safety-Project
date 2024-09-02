@@ -33,85 +33,44 @@
         {{ content }}
     </main>
 
-<div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
-    <h3>Detailed Jekyll Debug Info:</h3>
-    <p>Current page: {{ page.url }} ({{ page.title }}) - Order: {{ page.order }}</p>
-    
-    <h4>All site files:</h4>
-    <ul>
-    {% for file in site.static_files %}
-        <li>{{ file.path }} - {{ file.modified_time }}</li>
-    {% endfor %}
-    </ul>
-    
-    <h4>All pages:</h4>
-    <ul>
-    {% for p in site.pages %}
-        <li>{{ p.path }} - Title: {{ p.title | default: 'No title' }} - URL: {{ p.url }} - Order: {{ p.order | default: 'No order' }}</li>
-    {% endfor %}
-    </ul>
-    
-    <h4>Site variables:</h4>
-    <ul>
-        <li>site.url: {{ site.url }}</li>
-        <li>site.baseurl: {{ site.baseurl }}</li>
-        <li>site.time: {{ site.time }}</li>
-    </ul>
-</div>
-    
-<div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
-    <p>Footer Debug Info:</p>
-    <p>Current page: {{ page.url }} ({{ page.title }}) - Order: {{ page.order }}</p>
-    <p>All pages (including those without order):</p>
-    <ul>
-    {% for p in site.pages %}
-        <li>{{ p.title | default: 'No title' }} ({{ p.url }}) - Order: {{ p.order | default: 'No order' }} - Path: {{ p.path }}</li>
-    {% endfor %}
-    </ul>
-    <p>Sorted pages (only those with order):</p>
-    <ul>
-    {% assign sorted_pages = site.pages | sort: "order" %}
-    {% for p in sorted_pages %}
-        {% if p.order %}
-            <li>{{ p.title }} ({{ p.url }}) - Order: {{ p.order }}</li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-</div>
-
 <footer class="footer-nav">
-    {% assign sorted_pages = site.pages | sort: "order" %}
-    {% assign prev_page = nil %}
-    {% assign next_page = nil %}
-    {% for p in sorted_pages %}
-        {% if p.order %}
-            {% if p.order < page.order and p.order > prev_page.order %}
-                {% assign prev_page = p %}
-            {% endif %}
-            {% if p.order > page.order and p.order < next_page.order %}
-                {% assign next_page = p %}
-            {% endif %}
+    {% assign pages = site.navigation | sort: "order" %}
+    {% assign current_index = -1 %}
+    {% for item in pages %}
+        {% if item.url == page.url %}
+            {% assign current_index = forloop.index0 %}
         {% endif %}
     {% endfor %}
 
-    {% if prev_page %}
+    {% if current_index > 0 %}
+        {% assign prev_page = pages[current_index | minus: 1] %}
         <a href="{{ prev_page.url | relative_url }}">Previous: {{ prev_page.title }}</a>
     {% endif %}
-    {% if next_page %}
+
+    {% if current_index < pages.size | minus: 1 %}
+        {% assign next_page = pages[current_index | plus: 1] %}
         {% if prev_page %} | {% endif %}
         <a href="{{ next_page.url | relative_url }}">Next: {{ next_page.title }}</a>
     {% endif %}
 </footer>
 
 <div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
-    <p>Navigation Result:</p>
+    <p>Navigation Debug Info:</p>
+    <p>Current page: {{ page.url }} ({{ page.title }})</p>
+    <p>All navigation items:</p>
+    <ul>
+    {% for item in site.navigation %}
+        <li>{{ item.title }} ({{ item.url }}) - Order: {{ item.order }}</li>
+    {% endfor %}
+    </ul>
+    <p>Current Index: {{ current_index }}</p>
     {% if prev_page %}
-        <p>Previous page: {{ prev_page.title }} ({{ prev_page.url }}) - Order: {{ prev_page.order }}</p>
+        <p>Previous page: {{ prev_page.title }} ({{ prev_page.url }})</p>
     {% else %}
         <p>No previous page</p>
     {% endif %}
     {% if next_page %}
-        <p>Next page: {{ next_page.title }} ({{ next_page.url }}) - Order: {{ next_page.order }}</p>
+        <p>Next page: {{ next_page.title }} ({{ next_page.url }})</p>
     {% else %}
         <p>No next page</p>
     {% endif %}
