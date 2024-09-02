@@ -1,0 +1,29 @@
+title: AI Safety Project
+description: Evaluating LLMs for youth's emotional and cognitive growth
+
+navigation:
+  - title: Home
+    url: /
+  - title: Methodology
+    url: /methodology
+  - title: Evaluation
+    url: /evaluation
+  - title: Results
+    url: /results
+  - title: Code
+    url: /code
+  - title: Conclusions
+    url: /conclusions
+
+# Add this to enable previous/next functionality
+collections:
+  pages:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
