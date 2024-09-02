@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home - AI Safety Project
-order: 1
 ---
 
 # Welcome to My AI Safety Project

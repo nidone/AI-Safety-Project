@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Methodology - AI Safety Project
-order: 2
 ---
 
 # Methodology

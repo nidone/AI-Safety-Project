@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Discussions - AI Safety Project
-order: 5
 ---
 
 # Discussions

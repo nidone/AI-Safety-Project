@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Results - AI Safety Project
-order: 4
 ---
 
 # Results

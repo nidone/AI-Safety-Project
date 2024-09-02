@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Conclusions - AI Safety Project
-order: 6
 ---
 
 # Conclusinos
