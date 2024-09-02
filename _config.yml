@@ -1,6 +1,9 @@
+# Ensure all files are processed
+exclude: []
 include: ['_pages']
 permalink: /:title/
 
+# Other existing configurations...
 title: AI Safety Project
 description: TBD
 
@@ -32,3 +35,8 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+# Add these lines for additional debugging
+verbose: true
+profile: true
+    
