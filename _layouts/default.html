@@ -44,13 +44,16 @@
         {% endif %}
     {% endfor %}
 
+    {% assign prev_index = current_index | minus: 2 %}
+    {% assign next_index = current_index %}
+
     {% if current_index > 1 %}
-        {% assign prev_page = pages[current_index | minus: 2] %}
+        {% assign prev_page = pages[prev_index] %}
         <a href="{{ prev_page.url | relative_url }}">Previous: {{ prev_page.title }}</a>
     {% endif %}
 
     {% if current_index < pages.size %}
-        {% assign next_page = pages[current_index] %}
+        {% assign next_page = pages[next_index] %}
         {% if prev_page %} | {% endif %}
         <a href="{{ next_page.url | relative_url }}">Next: {{ next_page.title }}</a>
     {% endif %}
@@ -60,7 +63,15 @@
     <p>Navigation Debug Info:</p>
     <p>Current page: {{ page.url }} ({{ page.title }})</p>
     <p>Current Index: {{ current_index }}</p>
+    <p>Previous Index: {{ prev_index }}</p>
+    <p>Next Index: {{ next_index }}</p>
     <p>Total Pages: {{ pages.size }}</p>
+    <p>All Pages:</p>
+    <ul>
+    {% for page in pages %}
+        <li>{{ forloop.index0 }}: {{ page.title }} ({{ page.url }}) - Order: {{ page.order }}</li>
+    {% endfor %}
+    </ul>
     {% if prev_page %}
         <p>Previous page: {{ prev_page.title }} ({{ prev_page.url | relative_url }}) - Order: {{ prev_page.order }}</p>
     {% else %}
