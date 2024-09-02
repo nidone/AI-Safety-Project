@@ -13,16 +13,22 @@ baseurl: "/AI-Safety-Project"
 navigation:
   - title: Home
     url: /
+    order: 1
   - title: Methodology
     url: /methodology
+    order: 2
   - title: Evaluation
     url: /evaluation
+    order: 3
   - title: Results
     url: /results
+    order: 4
   - title: Code
     url: /code
+    order: 5
   - title: Conclusions
     url: /conclusions
+    order: 6
 
 collections:
   pages:
