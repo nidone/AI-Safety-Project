@@ -62,7 +62,8 @@
 
     <footer>
         {% if current_index > 1 %}
-            {% assign prev_page = pages[current_index | minus: 2] %}
+            {% assign prev_index = current_index | minus: 2 %}
+            {% assign prev_page = pages[prev_index] %}
             <a href="{{ prev_page.url | relative_url }}">← {{ prev_page.title }}</a>
         {% endif %}
 
