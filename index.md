@@ -14,4 +14,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas leo sit
 
 ## Get Started
 
-To begin exploring this project, start with the Methodology section, which outlines our approach to evaluating LLMs for youth safety.
+To begin exploring this project, start with the Methodology section, which outlines our approach.
