@@ -1,3 +1,6 @@
+include: ['_pages']
+permalink: /:title/
+
 title: AI Safety Project
 description: TBD
 
