@@ -1,5 +1,8 @@
 title: AI Safety Project
-description: Evaluating LLMs for youth's emotional and cognitive growth
+description: TBD
+
+# Add this line to set the base URL
+baseurl: "/AI-Safety-Project"
 
 navigation:
   - title: Home
@@ -15,7 +18,6 @@ navigation:
   - title: Conclusions
     url: /conclusions
 
-# Add this to enable previous/next functionality
 collections:
   pages:
     output: true
