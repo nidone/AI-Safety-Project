@@ -80,13 +80,8 @@
         <P>Page URL: page.url</P> 
         {% for item in pages %}
             {% assign item_url = item.url | remove_first: site.baseurl %}
-            <P>Item URL [{{ forloop.index }}]: item_url</P> 
-            {% if item_url == page.url %}
-                {% assign current_index = forloop.index %}
-                {% break %}
-            {% endif %}
+            <P>Item URL [{{ forloop.index }}]: {{item_url{{</P> 
         {% endfor %}
-
         <p>Current page: {{ page.url }} ({{ page.title }})</p>
         <p>Current Index: {{ current_index }}</p>
         <p>Current Index: {{ current_index }}</p>
