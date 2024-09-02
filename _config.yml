@@ -7,22 +7,22 @@ navigation:
     url: /
     order: 1
   - title: Methodology
-    url: /methodology/
+    url: /methodology
     order: 2
   - title: Evaluation
-    url: /evaluation/
+    url: /evaluation
     order: 3
   - title: Results
-    url: /results/
+    url: /results
     order: 4
   - title: Discussions
-    url: /discussions/
+    url: /discussions
     order: 5
   - title: Conclusions
-    url: /conclusions/
+    url: /conclusions
     order: 6
   - title: Code
-    url: /code/
+    url: /code
     order: 7
 
 collections:
