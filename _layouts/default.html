@@ -45,7 +45,7 @@
     {% endfor %}
 
     {% if current_index > 1 %}
-        {% assign prev_page = pages[current_index | minus: 2] %}
+        {% assign prev_page = pages[current_index | minus: 1] %}
         <a href="{{ prev_page.url | relative_url }}">Previous: {{ prev_page.title }}</a>
     {% endif %}
 
