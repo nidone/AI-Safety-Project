@@ -23,12 +23,15 @@ navigation:
   - title: Results
     url: /results/
     order: 4
-  - title: Code
-    url: /code/
+  - title: Discussions
+    url: /discussions/
     order: 5
   - title: Conclusions
     url: /conclusions/
     order: 6
+  - title: Code
+    url: /code/
+    order: 7
 
 collections:
   pages:
