@@ -16,7 +16,7 @@
 <body>
     <nav>
         {% for item in site.navigation %}
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         {% endfor %}
     </nav>
     <main>
@@ -24,10 +24,10 @@
     </main>
     <div class="footer-nav">
         {% if page.previous %}
-            <a href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
+            <a href="{{ site.baseurl }}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
         {% endif %}
         {% if page.next %}
-            | <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
+            | <a href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
         {% endif %}
         
         <div class="quick-nav">
@@ -36,7 +36,7 @@
                 {% if page.url == item.url %}
                     <span class="current">{{ item.title }}</span>
                 {% else %}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
+                    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
             {% endfor %}
         </div>
