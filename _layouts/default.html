@@ -36,7 +36,13 @@
 <div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
     <p>Footer Debug Info:</p>
     <p>Current page: {{ page.url }} ({{ page.title }}) - Order: {{ page.order }}</p>
-    <p>All pages with order:</p>
+    <p>All pages (including those without order):</p>
+    <ul>
+    {% for p in site.pages %}
+        <li>{{ p.title | default: 'No title' }} ({{ p.url }}) - Order: {{ p.order | default: 'No order' }} - Path: {{ p.path }}</li>
+    {% endfor %}
+    </ul>
+    <p>Sorted pages (only those with order):</p>
     <ul>
     {% assign sorted_pages = site.pages | sort: "order" %}
     {% for p in sorted_pages %}
@@ -53,12 +59,11 @@
     {% assign next_page = nil %}
     {% for p in sorted_pages %}
         {% if p.order %}
-            {% if p.order > page.order %}
-                {% unless next_page %}
-                    {% assign next_page = p %}
-                {% endunless %}
-            {% elsif p.order < page.order %}
+            {% if p.order < page.order and p.order > prev_page.order %}
                 {% assign prev_page = p %}
+            {% endif %}
+            {% if p.order > page.order and p.order < next_page.order %}
+                {% assign next_page = p %}
             {% endif %}
         {% endif %}
     {% endfor %}
@@ -85,5 +90,6 @@
         <p>No next page</p>
     {% endif %}
 </div>
+                
 </body>
 </html>
