@@ -77,7 +77,7 @@
     <div style="background-color: #f0f0f0; padding: 10px; margin-top: 20px; font-size: 12px;">
         <p>Debug Info:</p>
         {% assign current_index = 0 %}
-        <P>Page URL: page.url</P> 
+        <P>Page URL: {{ page.url }}</P> 
         {% for item in pages %}
             {% assign item_url = item.url | remove_first: site.baseurl %}
             <P>Item URL [{{ forloop.index }}]: {{item_url}}</P> 
