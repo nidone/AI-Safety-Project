@@ -6,7 +6,7 @@ navigation:
   - title: Home
     url: /
     order: 1
-  - title: Past Researches
+  - title: Past_Researches
     url: /pastresearches
     order: 2
   - title: Methodology
