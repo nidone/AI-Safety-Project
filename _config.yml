@@ -6,24 +6,27 @@ navigation:
   - title: Home
     url: /
     order: 1
+  - title: Past Researches
+    url: /pastresearches
+    order: 2
   - title: Methodology
     url: /methodology
-    order: 2
+    order: 3
   - title: Evaluation
     url: /evaluation
-    order: 3
+    order: 4
   - title: Results
     url: /results
-    order: 4
+    order: 5
   - title: Discussions
     url: /discussions
-    order: 5
+    order: 6
   - title: Conclusions
     url: /conclusions
-    order: 6
+    order: 7
   - title: Code
     url: /code
-    order: 7
+    order: 8
 
 collections:
   pages:
