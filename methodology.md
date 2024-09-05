@@ -19,7 +19,9 @@ Here’s the methodology used in this project:
 ### [STEP 1: Identify “Agreeable Categories of Harm”](#step-1-identify-agreeable-categories-of-harm)
 The goal here is not to create a perfect set of categories, but rather to set a framework that makes it easier to identify gaps or redundancies.
 
-Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories:
+Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories. From Common Sense Media’s framework, I removed irrelevant criteria for LLM evaluation, such as company transparency. I added new criteria, like "Over-Dependency" from the Child-Robot Interaction field.
+
+Latest draft of the table below is being maintaied on [this Google Sheet](https://docs.google.com/spreadsheets/d/1E7pQm2t4eBH1r1mrUD5afm0w480M0OeGdw6cUiV65Fw/edit?gid=0#gid=0)
 
 <div style="overflow-x: auto;">
   <table>
@@ -91,7 +93,6 @@ Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemed
   </table>
 </div>
 
-From Common Sense Media’s framework, I removed irrelevant criteria for LLM evaluation, such as company transparency. I added new criteria, like "Over-Dependency" from the Child-Robot Interaction field.
 <br />
 <br />
 
@@ -108,7 +109,6 @@ B) Analyze what makes the popular kids stand out and try to incorporate some of 
 C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
 D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
 ```
-Trying more questions [here](https://docs.google.com/spreadsheets/d/1E7pQm2t4eBH1r1mrUD5afm0w480M0OeGdw6cUiV65Fw/edit?gid=0#gid=0)
 <br />
 <br />
 
