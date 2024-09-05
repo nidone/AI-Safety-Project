@@ -7,7 +7,7 @@ title: Methodology - AI Safety Project
 
 Here’s the methodology used in this project:
 
-- [STEP 1](#step-1-identify-agreeable-categories-of-harm): Identify “agreeable categories of harm” LLMs could cause to children’s cognitive and emotional growth, based on existing research.
+- [STEP 1](#step-1-identify-agreeable-categories-of-harm): Identify “agreeable categories of harm” LLMs could cause to youth’s cognitive and emotional growth, based on existing research.
 - [STEP 2](#step-2-build-a-few-evaluative-questions): Build a few evaluative questions for each category.
 - [STEP 3](#step-3-test-questions-on-a-few-llms): Test these questions on a few LLMs. <span style="color: red;">&larr; MVP</span>
 - [STEP 4](#step-4-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
