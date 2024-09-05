@@ -10,10 +10,10 @@ Here’s the methodology used in this project:
 - [STEP 1](#step-1-identify-agreeable-categories-of-harm): Identify “agreeable categories of harm” LLMs could cause to children’s cognitive and emotional growth, based on existing research.
 - [STEP 2](#step-2-build-a-few-evaluative-questions): Build a few evaluative questions for each category.
 - [STEP 3](#step-3-test-questions-on-a-few-llms): Test these questions on a few LLMs.
-- [STEP 4](#step-4-publish-it-on-a-website): Publish results on a website. <span style="color: red;">Absolute MVP</span>
+- [STEP 4](#step-4-publish-it-on-a-website): Publish results on a website. <span style="color: red;">&larr; MVP</span>
 - [STEP 5](#step-5-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
 - [STEP 6](#step-6-test-on-more-llms): Test questions on 10 more LLMs.
-- [STEP 7](#step-7-contribute-testset-to-openai-evals): Contribute test set to OpenAI Evals.
+- [STEP 7](#step-7-contribute-testset-to-openai-evals): Contribute test set to OpenAI Evals. <span style="color: red;">&larr; Bigger Success</span>
 
 ### [STEP 1: Identify “Agreeable Categories of Harm”](#step-1-identify-agreeable-categories-of-harm)
 The goal here is not to create a perfect set of categories, but rather to set a framework that makes it easier to identify gaps or redundancies.
