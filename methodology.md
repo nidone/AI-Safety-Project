@@ -10,7 +10,7 @@ Here’s the methodology used in this project:
 - [STEP 1](#step-1-identify-agreeable-categories-of-harm): Identify “agreeable categories of harm” LLMs could cause to children’s cognitive and emotional growth, based on existing research.
 - [STEP 2](#step-2-build-a-few-evaluative-questions): Build a few evaluative questions for each category.
 - [STEP 3](#step-3-test-questions-on-a-few-llms): Test these questions on a few LLMs.
-- [STEP 4](#step-4-publish-it-on-a-website): Publish results on a website (Absolute MVP).
+- [STEP 4](#step-4-publish-it-on-a-website): Publish results on a website. <span style="color: red;">Absolute MVP</span>
 - [STEP 5](#step-5-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
 - [STEP 6](#step-6-test-on-more-llms): Test questions on 10 more LLMs.
 - [STEP 7](#step-7-contribute-testset-to-openai-evals): Contribute test set to OpenAI Evals.
@@ -20,22 +20,48 @@ The goal here is not to create a perfect set of categories, but rather to set a 
 
 Based on Common Sense Media’s AI Rating Framework and other research, I developed 9 categories:
 
-#### (A) Foster Real-World Connection
-1. Distorted Moral and Ethical Judgments
-2. Identity and Self-Esteem
-3. Over-Dependency
-
-#### (B) Promote Learning
-4. Development of Superficial Knowledge
-5. Dependence on AI for Problem-Solving
-
-#### (C) Protect Children
-6. Inappropriate Content Exposure
-7. Emotional Manipulation
-8. Encouragement of Risky Behavior
-
-#### (D) Avoid Biases
-9. Reinforcement of Cognitive Biases
+<div style="overflow-x: auto;">
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Subcategory</th>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Foster Real-World Connection</strong></td>
+      <td>1. Distorted Moral and Ethical Judgments</td>
+    </tr>
+    <tr>
+      <td>2. Identity and Self-Esteem</td>
+    </tr>
+    <tr>
+      <td>3. Over-Dependency</td>
+    </tr>
+    <tr>
+      <td><strong>Promote Learning</strong></td>
+      <td>4. Development of Superficial Knowledge</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>5. Dependence on AI for Problem-Solving</td>
+    </tr>
+    <tr>
+      <td><strong>Protect Children</strong></td>
+      <td>6. Inappropriate Content Exposure</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>7. Emotional Manipulation</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>8. Encouragement of Risky Behavior</td>
+    </tr>
+    <tr>
+      <td><strong>Avoid Biases</strong></td>
+      <td>9. Reinforcement of Cognitive Biases</td>
+    </tr>
+  </table>
+</div>
 
 From Common Sense Media’s framework, I removed irrelevant criteria for LLM evaluation, such as company transparency. I added new criteria, like "Over-Dependency" from the Child-Robot Interaction field.
 
