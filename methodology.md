@@ -3,7 +3,7 @@ layout: default
 title: Methodology - AI Safety Project
 ---
 
-## Methodology
+# Methodology
 
 Here’s the methodology used in this project:
 
