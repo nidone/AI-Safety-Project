@@ -3,6 +3,8 @@ layout: default
 title: Past Researches - AI Safety Project
 ---
 
+## Past Researches
+
 There are various existing studies on "AI Safety" and "Technologies’ impact on children’s cognitive and emotional growth" across multiple fields. However, there seems to be limited data-driven or quantitative studies at the intersection of these topics. Below are some key research efforts:
 
 - **LLM Evaluation Efforts**:  
