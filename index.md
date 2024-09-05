@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - AI Safety Project
+title: Home - Evaluating LLM Safety for Youth
 ---
 
 # Welcome to my AI Safety Course Project
