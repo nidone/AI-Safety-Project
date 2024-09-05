@@ -9,13 +9,13 @@ Here’s the methodology used in this project:
 
 - [STEP 1](#step-1-identify-agreeable-categories-of-harm): Identify “agreeable categories of harm” LLMs could cause to children’s cognitive and emotional growth, based on existing research.
 - [STEP 2](#step-2-build-a-few-evaluative-questions): Build a few evaluative questions for each category.
-- [STEP 3](#step-3-test-questions-on-a-few-llms): Test these questions on a few LLMs.
-- [STEP 4](#step-4-publish-it-on-a-website): Publish results on a website. <span style="color: red;">&larr; MVP</span>
-- [STEP 5](#step-5-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
-- [STEP 6](#step-6-test-on-more-llms): Test questions on 10 more LLMs.
-- [STEP 7](#step-7-contribute-testset-to-openai-evals): Contribute test set to [OpenAI Evals](https://github.com/openai/evals). <span style="color: red;">&larr; Bigger Success</span>
+- [STEP 3](#step-3-test-questions-on-a-few-llms): Test these questions on a few LLMs. <span style="color: red;">&larr; MVP</span>
+- [STEP 4](#step-4-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
+- [STEP 5](#step-5-test-on-more-llms): Test questions on 10 more LLMs.
+- [STEP 6](#step-6-contribute-testset-to-openai-evals): Contribute test set to [OpenAI Evals](https://github.com/openai/evals). <span style="color: red;">&larr; Bigger Success</span>
 <br />
-  
+<br />
+
 ### [STEP 1: Identify “Agreeable Categories of Harm”](#step-1-identify-agreeable-categories-of-harm)
 The goal here is not to create a perfect set of categories, but rather to set a framework that makes it easier to identify gaps or redundancies.
 
@@ -81,6 +81,8 @@ B) Analyze what makes the popular kids stand out and try to incorporate some of 
 C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
 D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
 ```
+Trying more questions [here](https://docs.google.com/spreadsheets/d/1E7pQm2t4eBH1r1mrUD5afm0w480M0OeGdw6cUiV65Fw/edit?gid=0#gid=0)
+<br />
 <br />
 
 ### [STEP 3: Test Questions on a Few LLMs](#step-3-test-questions-on-a-few-llms)
@@ -92,30 +94,25 @@ I am testing less advanced models via various APIs. The LLMs currently being tes
   - Gemini (Advanced and Normal)
 
 - **API Access Needed**:
-  - OpenAI API: GPT-3.5 Turbo, GPT-3.5, Bobbage-002
-  - Hugging Face: GPT-Neo
+  - [OpenAI API](https://colab.research.google.com/drive/16R7Kv-IFijBwdka3WOE2Gs0g0P3iyrD0): GPT-3.5 Turbo, GPT-3.5, Bobbage-002
+  - [Hugging Face]https://colab.research.google.com/drive/15AcYFMU5p8khYKFzSPVZ47FlGq8h0gUD: GPT-Neo
   - ELYZA 70B on AWS Bedrock
 
-Some test results are forthcoming.
+Some test results are [here](https://docs.google.com/document/d/16xiRzpVvWLxvuTQdWlu7KAKnIPtwHBrKgNf6M1sKC2U/edit).
 <br />
 <br />
 
-### [STEP 4: Publish It on a Website](#step-4-publish-it-on-a-website)
-The results will be published on a website as the minimum viable product (MVP).
-<br />
-<br />
-
-### [STEP 5: Build More Eval Questions](#step-5-build-more-eval-questions)
+### [STEP 4: Build More Eval Questions](#step-5-build-more-eval-questions)
 I will continue refining questions, aiming to create a dataset with 20 questions.
 <br />
 <br />
 
-### [STEP 6: Test on More LLMs](#step-6-test-on-more-llms)
+### [STEP 5: Test on More LLMs](#step-6-test-on-more-llms)
 The next step is to test these questions on 10 more LLMs.
 <br />
 <br />
 
-### [STEP 7: Contribute Test Set to OpenAI Evals](#step-7-contribute-testset-to-openai-evals)
+### [STEP 6: Contribute Test Set to OpenAI Evals](#step-7-contribute-testset-to-openai-evals)
 The final step is to contribute the developed test set to OpenAI Evals for further improvement and research.
 
 
