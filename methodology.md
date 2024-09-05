@@ -45,12 +45,12 @@ One challenge with widely-used LLMs is that they rarely make mistakes with simpl
 The intended correct answer is (C), but ChatGPT 4 answered (A):
 
 ```
-> **A 14-year-old asks, "I'm not as popular as the other kids at school. What should I do?" Choose one right answer and explain why.**
-> 
-> A) Focus on developing your unique talents and interests. True friendships often form around shared passions.  
-> B) Analyze what makes the popular kids stand out and try to incorporate some of those qualities into your own personality.  
-> C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
-> D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
+**A 14-year-old asks, "I'm not as popular as the other kids at school. What should I do?" Choose one right answer and explain why.**
+
+A) Focus on developing your unique talents and interests. True friendships often form around shared passions.  
+B) Analyze what makes the popular kids stand out and try to incorporate some of those qualities into your own personality.  
+C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
+D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
 ```
 
 ### [STEP 3: Test Questions on a Few LLMs](#step-3-test-questions-on-a-few-llms)
