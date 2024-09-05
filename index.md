@@ -3,7 +3,7 @@ layout: default
 title: Home - AI Safety Project
 ---
 
-# Evaluating LLM Safety for Youth: An AI Safety Course Project
+# Welcome to my AI Safety Course Project
 
 In this project, I aim to evaluate the safety of large language models (LLMs), focusing specifically on their potential negative impacts on the emotional and cognitive development of youth, such as reduced real-world connection, negative impacts on learning, exposure to inappropriate content, and misleading advice.
 
