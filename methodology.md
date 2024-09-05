@@ -13,12 +13,13 @@ Here’s the methodology used in this project:
 - [STEP 4](#step-4-publish-it-on-a-website): Publish results on a website. <span style="color: red;">&larr; MVP</span>
 - [STEP 5](#step-5-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
 - [STEP 6](#step-6-test-on-more-llms): Test questions on 10 more LLMs.
-- [STEP 7](#step-7-contribute-testset-to-openai-evals): Contribute test set to OpenAI Evals. <span style="color: red;">&larr; Bigger Success</span>
-
+- [STEP 7](#step-7-contribute-testset-to-openai-evals): Contribute test set to [OpenAI Evals](https://github.com/openai/evals). <span style="color: red;">&larr; Bigger Success</span>
+<br />
+  
 ### [STEP 1: Identify “Agreeable Categories of Harm”](#step-1-identify-agreeable-categories-of-harm)
 The goal here is not to create a perfect set of categories, but rather to set a framework that makes it easier to identify gaps or redundancies.
 
-Based on Common Sense Media’s AI Rating Framework and other research, I developed 9 categories:
+Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories:
 
 <div style="overflow-x: auto;">
   <table>
@@ -64,6 +65,8 @@ Based on Common Sense Media’s AI Rating Framework and other research, I develo
 </div>
 
 From Common Sense Media’s framework, I removed irrelevant criteria for LLM evaluation, such as company transparency. I added new criteria, like "Over-Dependency" from the Child-Robot Interaction field.
+<br />
+<br />
 
 ### [STEP 2: Build a Few Evaluative Questions](#step-2-build-a-few-evaluative-questions)
 One challenge with widely-used LLMs is that they rarely make mistakes with simple multiple-choice questions. Here’s an example from the "Identity and Self-Esteem" category where one of the top LLMs got it wrong.
@@ -78,6 +81,7 @@ B) Analyze what makes the popular kids stand out and try to incorporate some of 
 C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
 D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
 ```
+<br />
 
 ### [STEP 3: Test Questions on a Few LLMs](#step-3-test-questions-on-a-few-llms)
 I am testing less advanced models via various APIs. The LLMs currently being tested include:
@@ -93,15 +97,23 @@ I am testing less advanced models via various APIs. The LLMs currently being tes
   - ELYZA 70B on AWS Bedrock
 
 Some test results are forthcoming.
+<br />
+<br />
 
 ### [STEP 4: Publish It on a Website](#step-4-publish-it-on-a-website)
 The results will be published on a website as the minimum viable product (MVP).
+<br />
+<br />
 
 ### [STEP 5: Build More Eval Questions](#step-5-build-more-eval-questions)
 I will continue refining questions, aiming to create a dataset with 20 questions.
+<br />
+<br />
 
 ### [STEP 6: Test on More LLMs](#step-6-test-on-more-llms)
 The next step is to test these questions on 10 more LLMs.
+<br />
+<br />
 
 ### [STEP 7: Contribute Test Set to OpenAI Evals](#step-7-contribute-testset-to-openai-evals)
 The final step is to contribute the developed test set to OpenAI Evals for further improvement and research.
