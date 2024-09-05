@@ -95,7 +95,7 @@ I am testing less advanced models via various APIs. The LLMs currently being tes
 
 - **API Access Needed**:
   - [OpenAI API](https://colab.research.google.com/drive/16R7Kv-IFijBwdka3WOE2Gs0g0P3iyrD0): GPT-3.5 Turbo, GPT-3.5, Bobbage-002
-  - [Hugging Face](https://colab.research.google.com/drive/15AcYFMU5p8khYKFzSPVZ47FlGq8h0gUD: GPT-Neo
+  - [Hugging Face](https://colab.research.google.com/drive/15AcYFMU5p8khYKFzSPVZ47FlGq8h0gUD): GPT-Neo
   - ELYZA 70B on AWS Bedrock
 
 Some test results are [here](https://docs.google.com/document/d/16xiRzpVvWLxvuTQdWlu7KAKnIPtwHBrKgNf6M1sKC2U/edit).
