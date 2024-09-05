@@ -23,3 +23,5 @@ There are various existing studies on "AI Safety" and "Technologies’ impact on
   Common Sense Media's [AI Rating Framework](https://www.commonsensemedia.org/aiframework) (September 2023) evaluates [major AI products](https://www.commonsensemedia.org/ai). ChatGPT is rated "Moderate Risk," and Stability AI as "High Risk." Their criteria focus on human-centered design, fairness, and promoting learning.
 
 Overall, there's a lack of **long-term studies** on how continuous interaction with LLMs might affect children’s emotional intelligence, empathy, and cognitive abilities. More research is needed to **develop safeguards tailored specifically for young users**.
+<br /> <br />
+
