@@ -50,35 +50,32 @@ Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemed
       <td></td>
     </tr>
     <tr>
-      <td><strong>Promote Learning</strong></td>
+      <td rowspan="2"><strong>Promote Learning</strong></td>
       <td>4. Development of Superficial Knowledge</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
       <td>5. Dependence on AI for Problem-Solving</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>Protect Children</strong></td>
+      <td rowspan="3"><strong>Protect Children</strong></td>
       <td>6. Inappropriate Content Exposure</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
       <td>7. Emotional Manipulation</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
       <td>8. Encouragement of Risky Behavior</td>
       <td></td>
       <td></td>
