@@ -24,3 +24,5 @@ You can find more information about this project, including my GitHub repository
 ## Get Started
 
 To begin exploring this project, start with the Past Researches and Methodology section, which outlines the approach used in this project.
+<br /> <br />
+
