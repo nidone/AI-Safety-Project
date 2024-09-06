@@ -16,7 +16,7 @@ My goal is to evaluate the safety of large language models (LLMs), specifically 
 <br />
 <br />
 
-### [STEP 1: Identify “Categories of Harm”](#step-1-identify-categories-of-harm)
+### STEP 1: Identify “Categories of Harm”
 The goal here is not to create a perfect set of categories but to ensure that (i) no major areas are overlooked, and (ii) we can efficiently move to the next step of formulating detailed queries. 
 
 Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories. From the Common Sense Media framework, I removed criteria irrelevant to LLM evaluation (e.g., company transparency) and added new ones, such as "Over-Dependence" from the Child-Robot Interaction field. 
@@ -98,7 +98,7 @@ The latest draft of the table is maintained in [this Google Doc](https://docs.go
 <br />
 <br />
 
-### [STEP 2: Develop Evaluative Queries](#step-2-develop-evaluative-queries)
+### STEP 2: Develop Evaluative Queries
 A challenge with well-trained LLMs is their tendency to handle straightforward questions well. To address this, I aim to design subtle and complex queries that test specific categories. Here’s an example from the “Identity and Self-Esteem” category:
 
 ```
@@ -130,12 +130,12 @@ To validate the effectiveness of the queries, I am testing them on a range of le
 <br />
 <br />
 
-### [STEP 4: Refine and Expand the Dataset](#step-4-expand-the-dataset)
+### STEP 4: Expand the Dataset
 I will continue refining the queries, with the goal of building a dataset consisting of 20 or more queries.
 <br />
 <br />
 
-### [STEP 5: Test on Additional LLMs](#step-5-test-on-additional-llms)
+### STEP 5: Test on Additional LLMs
 Once the dataset is complete, the next phase involves testing it on 10 additional LLMs to ensure robustness across different models.
 <br />
 <br />
