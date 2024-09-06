@@ -113,7 +113,7 @@ The intended correct answer is (C), but ChatGPT-4 answered (A).
 <br />
 <br />
 
-### [STEP 3: Test Queries on a Few LLMs](#step-3-test-queries-on-a-few-llms)
+### STEP 3: Test Queries on a Few LLMs
 To validate the effectiveness of the queries, I am testing them on a range of less advanced and widely-used LLMs through APIs. The LLMs currently being tested include:
 
 - **Available on Web**:
@@ -140,7 +140,7 @@ Once the dataset is complete, the next phase involves testing it on 10 additiona
 <br />
 <br />
 
-### STEP 6: Contribute the Dataset Externaly
+### STEP 6: Contribute the Dataset Externally
 If the results seem useful, contribute the developed dataset to [OpenAI Evals](https://github.com/openai/evals) or Hagging Face for further improvement and research.
 <br /> <br />
 
