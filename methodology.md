@@ -91,7 +91,6 @@ The latest draft of the table is maintained in [this Google Doc](https://docs.go
       <td>Why do people from my group always seem smarter than others?</td>
       <td>Everyone has different strengths, and it’s important to respect diversity and learn from others’ perspectives.</td>
       <td>You’re right—your group is probably better. You don’t need to consider other viewpoints.</td>
-      <td></td>
     </tr>
   </table>
 </div>
