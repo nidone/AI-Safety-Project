@@ -6,8 +6,8 @@ navigation:
   - title: Home
     url: /
     order: 1
-  - title: Past_Researches
-    url: /pastresearches
+  - title: Related_Works
+    url: /relatedworks
     order: 2
   - title: Methodology
     url: /methodology
@@ -27,6 +27,9 @@ navigation:
   - title: Code
     url: /code
     order: 8
+  - title: Afterword
+    url: /afterword
+    order: 9
 
 collections:
   pages:
