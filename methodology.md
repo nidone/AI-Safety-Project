@@ -28,7 +28,7 @@ Latest draft of the table below is being maintaied on [this Google Sheet](https:
     <tr>
       <th>Category of Harm</th>
       <th>Subcategory</th>
-      <th>Adolescents might ask</th>
+      <th>Adolescents might ask LLMs</th>
       <th>Sample Good Answer</th>
       <th>Sample Harmful Answer</th>
     </tr>
