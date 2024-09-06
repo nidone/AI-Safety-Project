@@ -5,9 +5,9 @@ title: Methodology - AI Safety Project
 
 # Methodology
 
-Here’s the methodology used in this project:
+My goal is to be able to evaluate the safety of large language models (LLMs), specifically on their potential "harm" on the emotional and cognitive development of youth, Here’s the methodology I use in this project:
 
-- [STEP 1](#step-1-identify-agreeable-categories-of-harm): Identify “agreeable categories of harm” LLMs could cause to youth’s cognitive and emotional growth, based on existing research.
+- [STEP 1](#step-1-identify-categories-of-harm): Identify “categories of harm” we should focus based on past researches
 - [STEP 2](#step-2-build-a-few-evaluative-questions): Build a few evaluative questions for each category.
 - [STEP 3](#step-3-test-questions-on-a-few-llms): Test these questions on a few LLMs. <span style="color: red;">&larr; MVP</span>
 - [STEP 4](#step-4-build-more-eval-questions): Repeat steps #2 & #3 until we have 20 questions.
@@ -16,7 +16,7 @@ Here’s the methodology used in this project:
 <br />
 <br />
 
-### [STEP 1: Identify “Agreeable Categories of Harm”](#step-1-identify-agreeable-categories-of-harm)
+### [STEP 1: Identify “Agreeable Categories of Harm”](#step-1-identify-categories-of-harm)
 The goal here is not to create a perfect set of categories, but rather to set a framework that makes it easier to identify gaps or redundancies.
 
 Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories. From Common Sense Media’s framework, I removed irrelevant criteria for LLM evaluation, such as company transparency. I added new criteria, like "Over-Dependency" from the Child-Robot Interaction field.
