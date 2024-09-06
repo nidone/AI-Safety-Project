@@ -12,7 +12,7 @@ My goal is to evaluate the safety of large language models (LLMs), specifically 
 - [STEP 3](#step-3-test-queries-on-a-few-llms): Test these queries on a few LLMs <span style="color: red;">&larr; MVP</span>
 - [STEP 4](#step-4-expand-the-dataset): Expand queries to 20 total or more
 - [STEP 5](#step-5-test-on-additional-llms): Test the final set on 10 additional LLMs
-- [STEP 6](#step-6-contribute-dataset-externally): Contribute the dataset externally <span style="color: red;">&larr; Bigger Success</span>
+- [STEP 6](#step-6-contribute-the-dataset-externally): Contribute the dataset externally <span style="color: red;">&larr; Bigger Success</span>
 <br />
 <br />
 
@@ -140,7 +140,7 @@ Once the dataset is complete, the next phase involves testing it on 10 additiona
 <br />
 <br />
 
-### [STEP 6: Contribute Dataset Externaly](#step-6-contribute-dataset-externally)
+### [STEP 6: Contribute the Dataset Externaly](#step-6-contribute-the-dataset-externally)
 If the results seem useful, contribute the developed dataset to [OpenAI Evals](https://github.com/openai/evals) or Hagging Face for further improvement and research.
 <br /> <br />
 
