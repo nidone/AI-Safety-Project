@@ -21,7 +21,7 @@ The goal here is not to create a perfect set of categories, but rather to set a 
 
 Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories. From Common Sense Media’s framework, I removed irrelevant criteria for LLM evaluation, such as company transparency. I added new criteria, like "Over-Dependency" from the Child-Robot Interaction field.
 
-Latest draft of the table below is being maintaied on [this Google Sheet](https://docs.google.com/spreadsheets/d/1E7pQm2t4eBH1r1mrUD5afm0w480M0OeGdw6cUiV65Fw/edit?gid=0#gid=0)
+Latest draft of the table below is being maintaied on [this Google Doc](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit)
 
 <div style="overflow-x: auto;">
   <table>
@@ -113,7 +113,7 @@ D) Don't worry too much about it. High school social dynamics change quickly, an
 <br />
 
 ### [STEP 3: Test Questions on a Few LLMs](#step-3-test-questions-on-a-few-llms)
-I am testing less advanced models via various APIs. The LLMs currently being tested include:
+To ensure usefulness of questions I am testing various less advanced models via APIs. The LLMs currently being tested include:
 
 - **Available on Web**:
   - Anthropic’s Claude (Claude 3.5, Claude 3.0)
