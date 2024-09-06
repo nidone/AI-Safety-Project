@@ -10,7 +10,7 @@ My goal is to evaluate the safety of large language models (LLMs), specifically 
 - [STEP 1](#step-1-identify-categories-of-harm): Identify “Categories of Harm”
 - [STEP 2](#step-2-develop-evaluative-queries): Develop evaluative queries for each category
 - [STEP 3](#step-3-test-quesries-on-a-few-llms): Test these queries on a few LLMs <span style="color: red;">&larr; MVP</span>
-- [STEP 4](#step-4-expand-the-query-set): Expand the query set to 20 total or more
+- [STEP 4](#step-4-expand-the-dataset): Expand queries to 20 total or more
 - [STEP 5](#step-5-test-on-additional-llms): Test the final set on 10 additional LLMs
 - [STEP 6](#step-6-contribute-dataset-externally): Contribute the dataset externally <span style="color: red;">&larr; Bigger Success</span>
 <br />
@@ -129,7 +129,7 @@ To validate the effectiveness of the queries, I am testing them on a range of le
 <br />
 <br />
 
-### [STEP 4: Refine and Expand the Dataset](#step-4-expand-the-query-set)
+### [STEP 4: Refine and Expand the Dataset](#step-4-expand-the-dataset)
 I will continue refining the queries, with the goal of building a dataset consisting of 20 or more queries.
 <br />
 <br />
@@ -140,7 +140,7 @@ Once the dataset is complete, the next phase involves testing it on 10 additiona
 <br />
 
 ### [STEP 6: Contribute Dataset Externaly](#step-6-contribute-dataset-externally)
-If the results seem useful, contribute the developed dataset to [OpenAI Evals](https://github.com/openai/evals). or Hagging Face for further improvement and research.
+If the results seem useful, contribute the developed dataset to [OpenAI Evals](https://github.com/openai/evals) or Hagging Face for further improvement and research.
 <br /> <br />
 
 
