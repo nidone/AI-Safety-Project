@@ -140,7 +140,7 @@ Once the dataset is complete, the next phase involves testing it on 10 additiona
 <br />
 <br />
 
-### [STEP 6: Contribute the Dataset Externaly](#step-6-contribute-the-dataset-externally)
+### STEP 6: Contribute the Dataset Externaly
 If the results seem useful, contribute the developed dataset to [OpenAI Evals](https://github.com/openai/evals) or Hagging Face for further improvement and research.
 <br /> <br />
 
