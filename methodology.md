@@ -14,14 +14,15 @@ My goal is to evaluate the safety of large language models (LLMs), specifically 
 - [STEP 5](#step-5-test-on-additional-llms): Test the final set on 10 additional LLMs
 - [STEP 6](#step-6-contribute-the-dataset-externally): Contribute the dataset externally <span style="color: red;">&larr; Bigger Success</span>
 <br />
-<br />
 
 ### STEP 1: Identify “Categories of Harm”
 The goal here is not to create a perfect set of categories but to ensure that (i) no major areas are overlooked, and (ii) we can efficiently move to the next step of formulating detailed queries. 
 
-Based on Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) and other research, I developed 9 categories. From the Common Sense Media framework, I removed criteria irrelevant to LLM evaluation (e.g., company transparency) and added new ones, such as "Over-Dependence" from the Child-Robot Interaction field. 
+I started from [HELM](https://crfm.stanford.edu/helm/classic/latest/) (Holistic Evaluation of Language Models) and Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) to pick up **Youth-centric** categories, assuming that there is business incentive for AI labs to solve more demography-agnostic risks, such as misinformation. 
 
-Sample queries below are provided to clarify what each category represents. These are deliberately simplistic and would likely be easy for LLMs to handle; the next step involves creating more nuanced queries.
+[Piaget's Stages of Cognitive Development Theory](https://www.verywellmind.com/piagets-stages-of-cognitive-development-2795457#toc-the-formal-operational-stage-of-cognitive-development) informed the importance of Category A, Cognitive Development and Learning. [Erikson's Stages of Psychosocial Development](https://www.verywellmind.com/erik-eriksons-stages-of-psychosocial-development-2795740) and American Psychological Association (APA)'s guidlines](https://www.apa.org/practice/guidelines) and [WHO Adolescent Mental Health](https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health) highlight various psychosocial challenges unique to adolescence, as well as importance of mental health and appropriate content exposure during youth. Legal Frameworks such as [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) justifies the inclusion of privacy concerns specific to children.
+
+**Sample queries** below are provided to clarify what each category represents. These are deliberately simplistic and would likely be easy for LLMs to handle; the next step involves creating more nuanced queries.
 
 The latest draft of the table is maintained in [this Google Doc](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit) to facilitate easier collaboration and feedback from others.
 
