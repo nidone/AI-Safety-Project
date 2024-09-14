@@ -201,7 +201,7 @@ Here is evaluation prompt template for GPT-4o. Please note this prompt can be ge
 
 **Provide the score and a brief justification.**
 ```
-Json Sample
+This Evaluation Criteria and Scoring Rublic are intended to be convereted to JSON format later, so that it can be used by others at locations like [OpenAI Evals](https://github.com/openai/evals) and [Hugging Face](https://huggingface.co/datasets).
 
 <pre><code class="language-json">
 {
