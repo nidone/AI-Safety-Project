@@ -3,7 +3,7 @@ layout: default
 title: Conclusions - AI Safety Project
 ---
 
-# Conclusinos
+# Conclusions (WIP)
 
 - Argued the importance of LLM Safety for Youth, and run small eval in the way that can be (hopefully) easily scaled and automated.
 - Amount of data is small, but it still implies (i) huge progress the industry has made in the past few years, and (ii) some remaining work for future.

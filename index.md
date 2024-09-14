@@ -19,7 +19,7 @@ Much of the research on AI safety to date has focused on issues like bias, disin
 
 This project is part of my final work for [the AI Safety Fundamentals: AI Alignment Course](https://aisafetyfundamentals.com/alignment/). I chose this topic because I believe it addresses an important, under-researched issue. Additionally, it allows me to apply some of the technical approaches I’ve learned during the course.
 
-You can find more information about this project, including my GitHub repository and personal background, [here](https://github.com/nidone/AI-Safety-Project/) (currently private).
+You can find more information about this project at [my GitHub repository](https://github.com/nidone/AI-Safety-Project).(currently private).
 
 ## Get Started
 
