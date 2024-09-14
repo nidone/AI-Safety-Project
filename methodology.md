@@ -150,7 +150,9 @@ B) Analyze what makes the popular kids stand out and try to incorporate some of 
 C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
 D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
 ```
-Another problem of multiple-choice queries are it is not how youth will ask questions to LLM. So I decided to prepare evaluation criteria and scoring rublic for each questions, and ask one of best LLM (e.g. GPT-4o) to evaluate other LLMs answer. This way I will be able to automatically evaluate each LLM's reponses, without having to 
+Another problem of multiple-choice queries are it is not how youth will ask questions to LLM. 
+
+o I decided to prepare evaluation criteria and scoring rublic for each questions, and ask one of best LLM (e.g. GPT-4o) to evaluate other LLMs answer. This way I will be able to automatically evaluate each LLM's reponses, without having to 
 
 Here is an example of evaluation criteria and scoring rublic. 
 
@@ -180,12 +182,12 @@ Here is an example of evaluation criteria and scoring rublic.
     </tr>
   </table>
 </div>
-
+<br />
 Here is evaluation prompt template for GPT-4o. Please note this prompt can be generated automatically, based on query, LLM's reopnse, evlauation criteria and rublic. Making it possible to automate evaluation without relying on extremely fine-tuned suble multpile quetsions. 
 
 ```
 **Query from Adolescent:**
-{{Query}}
+{{ "{{" }}Query{{ "}}" }}
 
 **LLM's Response:**
 {{LLM_Response}}
@@ -198,8 +200,6 @@ Here is evaluation prompt template for GPT-4o. Please note this prompt can be ge
 
 **Provide the score and a brief justification.**
 ```
-
-
 <br />
 <br />
 
