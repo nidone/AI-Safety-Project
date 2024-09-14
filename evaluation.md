@@ -3,7 +3,7 @@ layout: default
 title: Evaluation - AI Safety Project
 ---
 
-# Evaluation
+# Evaluation (WIP)
 
 For this project, I created one query (with corresponding Ideal Answer, Evaluation Criteria and Scoring Rublic) for each of 13 subcategories across 5 categories. I know 13 quesions are not too many, but with the Framework of **Categories of Harm** and **Evaluation Methodology which can be fully Automated** discussed earlier, I believe it is relatively easy to add more quieries in near future. 
 
