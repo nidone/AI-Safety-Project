@@ -15,21 +15,12 @@ navigation:
   - title: Evaluation
     url: /evaluation
     order: 4
-  - title: Results
-    url: /results
-    order: 5
-  - title: Discussions
-    url: /discussions
-    order: 6
   - title: Conclusions
     url: /conclusions
-    order: 7
-  - title: Code
-    url: /code
-    order: 8
+    order: 5
   - title: Afterword
     url: /afterword
-    order: 9
+    order: 6
 
 collections:
   pages:
