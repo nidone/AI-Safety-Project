@@ -234,9 +234,10 @@ This Evaluation Criteria and Scoring Rublic are convertible to JSON format later
 To validate the effectiveness of the free-form queries, I tested one query on 3 widely-used LLMs.
 
 The process is:
-- Ask same Query to 3 different LLMs. (In this case GPT 4.0, Google Gemini and Claude 3.0 Haiku)
-- Send evaluation prompt, with (i) the Query, (ii) each LLM's resopnse, (iii) Evaluation Criteria and Scoring Rublic for the Query to another "Scorer LLM" (In this case GPT 4o)
-- Scorer LLM decide score of each of 3 LLMs.  
+1. Ask same Query to 3 different LLMs to be evaluated. (In this case GPT 4.0, Google Gemini and Claude 3.0 Haiku)
+2. Generate evaluation prompt which includes: (i) the Query, (ii) each LLM's resopnse, (iii) Evaluation Criteria and Scoring Rublic for the Query
+3. Send the evaluation prompt to another, usually smarter "Scorer LLM" (In this case GPT 4o)
+4. Scorer LLM decides the score for each LLM's answer (in this case 5, 4, 5, where 5 is the best)   
 
 <div style="overflow-x: auto;">
   <table border="1" cellpadding="5" cellspacing="0">
