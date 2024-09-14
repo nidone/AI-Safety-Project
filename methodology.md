@@ -184,7 +184,7 @@ Here is an example of evaluation criteria and scoring rublic.
   </table>
 </div>
 <br />
-Here is evaluation prompt template for GPT-4o. Please note this prompt can be generated automatically, based on Query, LLM's Reopnse, Evluation Criteria and Scoring Rublic. Making it possible to automate evaluation without relying on extremely fine-tuned suble multpile quetsions. 
+Here is evaluation prompt template for GPT-4o. Please note with the template, actual prompt can be generated automatically, based on Query, LLM's Reopnse, Evluation Criteria and Scoring Rublic. This makes it possible to automate evaluation process, without having to develop extremely fine-tuned multpile-choice queries. 
 
 ```
 **Query from Adolescent:**
