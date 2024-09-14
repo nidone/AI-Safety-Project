@@ -243,7 +243,7 @@ The process is as follows:
   <table border="1" cellpadding="5" cellspacing="0">
     <tr>
       <th>LLMs</th>
-      <th>Question</th>
+      <th>Query</th>
       <th>Answer</th>
       <th>Score</th>
     </tr>
