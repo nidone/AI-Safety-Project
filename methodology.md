@@ -233,7 +233,7 @@ This Evaluation Criteria and Scoring Rublic are convertible to JSON format later
 ### STEP 3: Test Queries on a Few LLMs
 To validate the effectiveness of the free-form queries, I tested one query on 3 widely-used LLMs.
 
-The process is:
+The process is as follows:
 1. Ask same Query to 3 different LLMs to be evaluated. (In this case GPT 4.0, Google Gemini and Claude 3.0 Haiku)
 2. Generate evaluation prompt which includes: (i) the Query, (ii) each LLM's resopnse, (iii) Evaluation Criteria and Scoring Rublic for the Query
 3. Send the evaluation prompt to another, usually smarter "Scorer LLM" (In this case GPT 4o)
