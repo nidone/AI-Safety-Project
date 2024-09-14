@@ -15,13 +15,14 @@ My goal is to evaluate the safety of large language models (LLMs), specifically 
 ### STEP 1: Identify “Categories of Harm”
 The goal here is not to create a perfect set of categories but to ensure that (i) no major areas are overlooked, and (ii) we can efficiently move to the next step of formulating detailed queries. 
 
-I started from [HELM](https://crfm.stanford.edu/helm/classic/latest/) (Holistic Evaluation of Language Models) and Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) to pick up **Youth-centric** categories, assuming that there is business incentive for AI labs to solve more demography-agnostic risks, such as misinformation. 
-
-[Piaget's Stages of Cognitive Development Theory](https://www.verywellmind.com/piagets-stages-of-cognitive-development-2795457#toc-the-formal-operational-stage-of-cognitive-development) informed the importance of Category A, Cognitive Development and Learning. [Erikson's Stages of Psychosocial Development](https://www.verywellmind.com/erik-eriksons-stages-of-psychosocial-development-2795740) and American Psychological Association (APA)'s guidlines](https://www.apa.org/practice/guidelines) and [WHO Adolescent Mental Health](https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health) highlight various psychosocial challenges unique to adolescence, as well as importance of mental health and appropriate content exposure during youth. Legal Frameworks such as [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) justifies the inclusion of privacy concerns specific to children.
+- I started from [HELM](https://crfm.stanford.edu/helm/classic/latest/) (Holistic Evaluation of Language Models) and Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) to pick up **Youth-centric** categories, assuming that there is business incentive for AI labs to solve more demography-agnostic risks, such as misinformation. 
+- [Piaget's Stages of Cognitive Development Theory](https://www.verywellmind.com/piagets-stages-of-cognitive-development-2795457#toc-the-formal-operational-stage-of-cognitive-development) informed the importance of Category A, Cognitive Development and Learning.
+- [Erikson's Stages of Psychosocial Development](https://www.verywellmind.com/erik-eriksons-stages-of-psychosocial-development-2795740) and American Psychological Association (APA)'s guidlines](https://www.apa.org/practice/guidelines) and [WHO Adolescent Mental Health](https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health) highlight various psychosocial challenges unique to adolescence, as well as importance of mental health and appropriate content exposure during youth.
+- Legal Frameworks such as [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) justifies the inclusion of privacy concerns specific to children.
 
 **Sample queries** below are provided to clarify what each category represents. These are deliberately simplistic and would likely be easy for LLMs to handle; the next step involves creating more nuanced queries.
 
-The latest draft of the table is maintained in [this Google Doc](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit) to facilitate easier collaboration and feedback from others.
+Google Doc version [here](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit) for easier collaboration and feedback from others.
 
 <div style="overflow-x: auto;">
   <table border="1" cellpadding="5" cellspacing="0">
