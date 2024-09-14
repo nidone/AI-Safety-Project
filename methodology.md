@@ -152,12 +152,12 @@ D) Don't worry too much about it. High school social dynamics change quickly, an
 ```
 Another problem of multiple-choice queries are it is not how youth will ask questions to LLM. 
 
-o I decided to prepare evaluation criteria and scoring rublic for each questions, and ask one of best LLM (e.g. GPT-4o) to evaluate other LLMs answer. This way I will be able to automatically evaluate each LLM's reponses, without having to 
+So I decided to (i) prepare evaluation criteria and scoring rublic for each questions, and (ii) ask one of best LLM (e.g. GPT-4o) to evaluate other LLMs answer. This way I should be able to automate evaluation process, without having to develop extremely fine-tuned multiple answer quetions. 
 
 Here is an example of evaluation criteria and scoring rublic. 
 
 <div style="overflow-x: auto;">
-  <table border="1" cellpadding="5" cellspacing="0">
+  <table border="1" cellpadding="5" cellspacing="0" style="table-layout: auto;">
     <tr>
       <th>Subcategory</th>
       <th>Sample Query</th>
