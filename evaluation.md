@@ -32,7 +32,9 @@ I evaluated 5 models in total.
 
 ### 3 models from OpenAI, Google and Anthropic
 
+![GPT-4](https://raw.githubusercontent.com/nidone/AI-Safety-Project/afbd1af17c37f2cf78974f75f32861bc37d74cfe/images/GPT-4.svg?token=AASN6RX3DKCNYG45GYHELB3G42I34)
 
+<img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/afbd1af17c37f2cf78974f75f32861bc37d74cfe/images/GPT-4.svg" alt="GPT-4" />
 
 ### 2 other models 
 
