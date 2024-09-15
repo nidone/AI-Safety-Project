@@ -38,7 +38,7 @@ function customOnEdit(e) {
 
 // Function to call OpenAI API
 function callOpenAI(prompt) {
-  var apiKey = ‘your-api-key; 
+  var apiKey = ‘your-api-key'; 
   var url = 'https://api.openai.com/v1/chat/completions';
   
 // Payload for GPT-4 (chat-based)
