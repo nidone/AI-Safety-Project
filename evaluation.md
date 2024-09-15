@@ -48,6 +48,8 @@ I reiterate this results is based on only 13 queries, and not exhaustive or comp
 <br /><br />
 <img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Grok.svg" alt="Grok" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/GPT 3.5.svg" alt="GPT 3.5" />
 
+<br /> <br />
+
 You can find full result in [this spreadsheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
 
 <br /> <br />
