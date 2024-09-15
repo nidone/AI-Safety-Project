@@ -3,7 +3,7 @@ layout: default
 title: Conclusions - AI Safety Project
 ---
 
-# Conclusions (WIP)
+# Conclusions
 
 - I proposed the importance of evaluate LLMs specifically for Youth
 - I went through actual eval process

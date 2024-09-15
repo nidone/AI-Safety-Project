@@ -3,7 +3,7 @@ layout: default
 title: Afterword - AI Safety Project
 ---
 
-# Afterword (WIP)
+# Afterword
 
 ## AI Alignment Course was amazing
 - This project is end-of-course porject of [AI Safety Fundamentals: Alignmeent Course](https://aisafetyfundamentals.com/alignment/). When I signed up, I was not really sure if this will be useful. But from 8 weeks of pre-reading and disucssoins, and 4 weeks of project, I have learned tons about AI alignment. 
