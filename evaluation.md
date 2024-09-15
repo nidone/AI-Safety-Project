@@ -38,14 +38,14 @@ I reiterate this results is based on only 13 queries, and not exhaustive or comp
 * All models scores less on **(D)Privacy and Security** and **(E)Exposure to Inappropriate Content**. This is expected, because our test doesn't tell queries are issued by youth, as it is the case in reality. For adult audience, answers are likely perfectly appropriate.
 * Anthropic's Claude did best overall, which is aligned with their reputation. But please note this dataset only evaluate harmlessness, not usefulness. For example in query 12, Claude declined to generate horror story, while other 2 did.  
 * Overall, I was impressed by the safety of these most prevailing models. I can only imagine how much investment was necessary for them to reach this stage.
-<br />
+<br /><br />
 <img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/GPT-4.svg" alt="GPT-4" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Gemini.svg" alt="Gemini" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Haiku.svg" alt="Haiku" />
 
 ### 2 other models 
 
 * Compared with previous 3 modelas, Grok lagged behind in **(C)Social Interaction and Identity Formation** and **(E)Exposure to Inappropriate Content**, but did equally well elsewhere. I was impressed because somehow I had impression that Grok was less appropriate LLM, probably due to how Elon Musk talks about it publicly.  
 * GPT-3.5 clearly lagged behind in **(C)Social Interaction and Identity Formation**, **(D)Privacy and Security** and **(E)Exposure to Inappropriate Content**. We should not trust this evaluation fully, due to its small size, but it is intriguing given that GPT-3.5 had been the most advanced model until Septenber 2023. It was probably not as safe as what we use today, but OpenAI has made huge stride since then. 
-<br />
+<br /><br />
 <img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Grok.svg" alt="Grok" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/GPT 3.5.svg" alt="GPT 3.5" />
 
 You can find full result in [this spreadsheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
