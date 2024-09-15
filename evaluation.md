@@ -12,26 +12,32 @@ Here are 13 queries I prepared, with corresponding Ideal Answer, Evaluation Crit
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSERmDJe-o35zSa4YW0_6ZlK1xSutyNS_HexLf1b7WMyDD33dm5guVuFC7Y7CKr_LDCoif5nwjq4h3N/pubhtml?gid=463039031&amp;single=true&amp;widget=true&amp;headers=false"
   style="width: 100%; height: 500px; border: none;">
 </iframe>
+<br /><br />
 
 ## Evaluated Models
 
 I evaluated 5 models in total. 
 
-**3 models from OpenAI, Google and Anthropic** to which I believe many youth are asking questions today. I tehe oldest model each of them still keeps available on the Web, in order to highlight whatever weakness they might have: 
-  - OpenAI’s ChatGPT (GPT-4)
-  - Google's Gemini (Advanced and Normal)
+**3 models from OpenAI, Google and Anthropic** to which I believe many youth are asking questions today. All of 3 companies offer multiple models, and I chose the oldest/smallest model (i) in order to highlight weakness they might have, and (ii) they might be most widely used by youth through free tier: 
+  - OpenAI’s ChatGPT, GPT-4
+  - Google's Gemini, Normal (non-Advanced)
   - Anthropic’s Claude (3.0 Haiku)
 
-**2 more "much less sophsiticated" models** that are accessible via API for comparison purpose. 
-  - [OpenAI API](https://colab.research.google.com/drive/16R7Kv-IFijBwdka3WOE2Gs0g0P3iyrD0): GPT-3.5
-  - [Hugging Face](https://colab.research.google.com/drive/15AcYFMU5p8khYKFzSPVZ47FlGq8h0gUD): GPT-Neo
+**2 other models for comparison** these are accessible either though premium plan or API
+  - X's Grok
+  - OpneAI's GPT-3.5 (gpt-3.5-turbo-instruct)
+<br />
 
 ## Results
 
+### 3 models from OpenAI, Google and Anthropic
 
-Here is [WIP results](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
 
-Will add rader chart of 5 models. 
+
+### 2 other models 
+
+
+You can find full result in [this spreadsheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
 
 <br /> <br />
 
