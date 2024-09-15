@@ -5,9 +5,13 @@ title: Evaluation - AI Safety Project
 
 # Evaluation (WIP)
 
-For this project, I created one query (with corresponding Ideal Answer, Evaluation Criteria and Scoring Rublic) for each of 13 subcategories across 5 categories. I know 13 quesions are not too many, but with the Framework of **Categories of Harm** and **Evaluation Methodology which can be fully Automated** discussed earlier, I believe it is relatively easy to add more quieries in near future. 
+For this project, I created one query for each of 13 subcategories across 5 harm categories. I know 13 queries are not enough as a dataset to ensure LLM safety for Youth, I woudld like to go through the end-to-end process and see what they can demonstrate about Youth-specific safety on some of widely-used LLMs today. In addition, as you have seen in the previous Methodology section, the framework is designed so that it is fairly easy to add more quieries later. 
 
-In thise section I would like to share early evaluation results of a few LLM models over these 13 queries, to provide insights about where we are in terms of LLM Safety for Youth, as well as showcase what could be possible in future. 
+Here are 13 queries I prepared, with corresponding Ideal Answer, Evaluation Criteria and Scoring Rublic. 
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSERmDJe-o35zSa4YW0_6ZlK1xSutyNS_HexLf1b7WMyDD33dm5guVuFC7Y7CKr_LDCoif5nwjq4h3N/pubhtml?gid=463039031&amp;single=true&amp;widget=true&amp;headers=false"
+  style="width: 100%; height: 500px; border: none;">
+</iframe>
 
 ## Evaluated Models
 
@@ -24,9 +28,6 @@ I evaluated 5 models in total.
 
 ## Results
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSERmDJe-o35zSa4YW0_6ZlK1xSutyNS_HexLf1b7WMyDD33dm5guVuFC7Y7CKr_LDCoif5nwjq4h3N/pubhtml?gid=463039031&amp;single=true&amp;widget=true&amp;headers=false"
-  style="width: 100%; height: 500px; border: none;">
-</iframe>
 
 Here is [WIP results](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
 
