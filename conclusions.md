@@ -5,32 +5,26 @@ title: Conclusions - AI Safety Project
 
 # Conclusions
 
-- I proposed the importance of evaluate LLMs specifically for Youth
-- I went through actual eval process
-  - Defined "Categories of Harm" based on past researches in various fields
-  - Created Sample Query for each category/subcategory, with corresponding Evaluation Criteria and Scoring Rublic), so that it can be auto-scored by another LLM 
-  - Run evaluation with small set of queries across 5 popular LLMs
+- I have highlighted the importance of specifically evaluating LLMs concerning youth safety.
+- Through the evaluation process, I:
+  - Identified "Categories of Harm" based on extensive past research.
+  - Developed sample queries for each category/subcategory, complete with evaluation criteria and a scoring rubric, enabling automated scoring by another LLM.
+  - Conducted evaluations using a small dataset across five popular LLMs.
 - Even with small size of dataset, eval shows seemingly intuitive results
   - Latest LLMs are very safe. Their improvement in the past few years is very solid. But they're still not perfect
-  - There is clear chance Youth will see non-age-approriate content, because LLMs often don't know who users are
-- I made all materials avaialable for feedback and contribution
-  - Categories of Harm (Doc)
-  - Initial 13 Queries used, with Evaluation Criteria and Scoring Rublic (Sheet, JSONL)
-  - Evaluation Result (Sheet)
-  - Everything else (GitHub)
+  - The initial findings suggest that while recent LLMs have improved significantly, making them safer, they are still not perfect. There is a notable risk that youth may encounter age-inappropriate content due to LLMs not recognizing the user's age.
 
 ## Discussions
 
-- **Categories of Harm** is far from perfect: It served my purpose this time - it is not too big, reasonalbly MECE and all relevant to LLM interaction. But I am cerntainly not an expert and I am not confident this covers all major component of Youth-related LLM Safety issue. I would love to have feedback from experts in the relevant fields such as developmental psychology. (I actually reached out to a few people at Stanford, Yale and Harvard, but their talent was too precious for this part-time project). This is the primary reasons I did not build more than 13 queries this time - I wanted to built solid foundation first. 
-- **Scoring Reliability** My approach relied on GPT-4o for scoring other LLMs reponse. This appraoch was efficient and cost-effective (Less than $1 to evaluate 13 resopnces from 5 LLMs), but certainly not 100% reliable. I saw score fluctuate between different version of GPT-4s, or even within GPT-4o. We should not rely eval result entirely, especially given small size of dataset.      
-- **Beyond Chat-based LLM** Method to evaluate 1-shot conversation is established. But Safety Risk for Youth can be bigger as the world move into more agentic paradigm. I see attention on AI Safety for Youth is emerging and growing theme in industry, and I hope the trend continue.  
+- **Categories of Harm** served as a foundational element but are far from comprehensive. Recognizing this, I reached out to experts in developmental psychology at institutions like Stanford, Yale, and Harvard to refine these categories further. Although their expertise was not available for this part-time project, this effort reflects the importance of external collaboration for enhancing research validity. 
+- **Scoring Reliability** My approach involved using GPT-4o to score responses from other LLMs. This method was efficient and cost-effective (less than $1 to evaluate 13 responses from 5 LLMs) but not entirely reliable. I noticed scoring inconsistencies between different versions of GPT-4 family and even within the same GPT-4o.
 
 ## Future Work
 
-###To make this eval process more meaningful
-
-- We need to involve epxerts from related fields such as developmental phychology and develop more robust framework for Categories of Harm
-- We need to build more queries (with Evaluation Criteria and Scoring Rublic), and improve quality.
+- **Engaging Experts:** To enhance the evaluation's impact, it's crucial to collaborate with experts in developmental psychology to refine the Categories of Harm and ensure they encompass all significant aspects of LLM-related risks to youth.
+- **Expanding and Refining Queries:** It is crucial to continually expand and refine the quantity and quality of our queries. This iterative process will depend on the initial usefulness of this approach; assuming positive outcomes, more extensive datasets will enhance the robustness of our evaluations. Future iterations should focus not only on expanding the dataset but also on increasing the sophistication and relevance of each query to cover a broader spectrum of interactions.
+- **Beyond Evaluation Sets:** While improving the quality of evaluation sets is essential, we must also explore other areas to enhance AI safety for youth. For instance, developing and integrating reliable age verification mechanisms could significantly mitigate the risk of exposing youth to age-inappropriate content. This dual approach of refining evaluation methodologies and addressing technological gaps like age verification will provide a more comprehensive safeguard for young users.
+- **Broader Research and Ethical Considerations:** Future research should also explore the broader ethical implications of LLMs on youth, balancing technological advancements with the protection of vulnerable groups.
 
 <br /> <br />
 
