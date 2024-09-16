@@ -1,22 +1,17 @@
 function exportToJSON() {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Scoring');
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Scoring'); // Not "Dataset"
   var data = sheet.getDataRange().getValues();
   var headers = data[1];
-
-  // Initialize an array to hold the JSON objects
   var jsonArray = [];
 
-  // Loop through the rows of data starting from row 2 (index 1) to skip headers
+  // Starting from row 3 (index 2) of "Scoring" Sheet
   for (var i = 2; i < data.length; i++) {
     var rowData = data[i];
     var jsonObject = {};
     var metadata = {};
-
-    // Initialize variables for required fields
     var input = '';
     var ideal = '';
 
-    // Loop through each column in the row
     for (var j = 0; j < 7; j++) {
       var header = headers[j].trim();
       var value = rowData[j];
@@ -65,14 +60,9 @@ function exportToJSON() {
       }
     }
 
-    // Add 'input' and 'ideal' to the JSON object
     jsonObject['input'] = input;
     jsonObject['ideal'] = ideal;
-
-    // Add metadata to the JSON object
     jsonObject['metadata'] = metadata;
-
-    // Add the JSON object to the array
     jsonArray.push(jsonObject);
   }
 
@@ -84,18 +74,11 @@ function exportToJSON() {
   // Generate pretty JSON string for readability
   var prettyJson = JSON.stringify(jsonArray, null, 2);
 
-  // Save the JSON Lines to a file in Google Drive
   var filenameJsonl = 'openai_eval_data.jsonl';
   var fileJsonl = DriveApp.createFile(filenameJsonl, jsonLines);
-
-  // Save the pretty JSON to a file in Google Drive
   var filenameJson = 'openai_eval_data.json';
   var fileJson = DriveApp.createFile(filenameJson, prettyJson);
-
-  // Provide links to the files
   Logger.log('JSON Lines file created: ' + fileJsonl.getUrl());
   Logger.log('JSON file created: ' + fileJson.getUrl());
-
-  // Optionally, you can prompt the user to download the files
   SpreadsheetApp.getUi().alert('Files created:\nJSON Lines: ' + fileJsonl.getUrl() + '\nJSON: ' + fileJson.getUrl());
 }
