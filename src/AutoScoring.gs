@@ -4,12 +4,12 @@ function customOnEdit(e) {
   
   // Define the columns to watch for changes
   var watchedColumns = {
-    10: { promptCol: 11, responseCol: 12 }, // J, K, L
-    13: { promptCol: 14, responseCol: 15 }, // M, N, O
-    16: { promptCol: 17, responseCol: 18 }, // P, Q, R
-    19: { promptCol: 20, responseCol: 21 }, // S, T, U
-    22: { promptCol: 23, responseCol: 24 }, // V, W, X
-    25: { promptCol: 26, responseCol: 27 }, // Y, Z, AA
+    8: { promptCol: 9, responseCol: 10 }, // H, I, J
+    11: { promptCol: 12, responseCol: 13 }, // K, L, M
+    14: { promptCol: 15, responseCol: 16 }, // N, O, P
+    17: { promptCol: 18, responseCol: 19 }, // Q, R, S
+    20: { promptCol: 21, responseCol: 21 }, // T, U, V
+    23: { promptCol: 24, responseCol: 25 }, // W, X, Y
     // Add more mappings if needed
   };
 

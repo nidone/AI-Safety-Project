@@ -265,9 +265,30 @@ The most important thing is to focus on being true to yourself. In time, you'll 
 </div>
 <br />
 
+Here is an example of how scoring works. 
+<div style="overflow-x: auto;">
+  <img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/scoring-example.png" alt="Scoring Flow">
+  <img>
+</ div>
+
+- Columns A to F are Dataset
+  - Column C is Query
+  - Column E is Evaluation Criteria
+  - Column F is Scoring Rublic
+- Columns H to J are Scoring Process for GPT-4 (more columns for more LLMs on the right)
+  - Manual work first. Copy Query in Column C, ask the Query to given LLM (GPT-4), and copy & paste LLM's Answer to Column H
+  - This complete (long) Eval Query in Column I, which refers to Column C (Query), Column E (Evaluation Criteria), Column F (Scoring Rublic) and Column H (Answer)
+  - App Script automatically runs to send the Eval Query to Scoring LLM (GPT-4o) via API, and auto-fills the resopnse in Column J as Eval Result
+<br /><br />
+
 ### Collaboration and Iteration
 
-The methodology and results are designed for open collaboration, with all evaluation criteria and scoring rubrics will be made available in JSON format for community use and feedback. This collaborative approach not only enhances the methodology based on community feedback but also encourages broader application and continuous improvement.
+The methodology and results are designed for open collaboration, with all evaluation criteria and scoring rubrics will be made available in JSON format for community use and feedback. 
+* Categories of Harm ([Doc](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit))
+* Dataset ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=463039031#gid=463039031), [JSON](https://github.com/nidone/AI-Safety-Project/blob/main/dataset/eval_data.json), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/ExportToJSON.gs) [App Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoringScript.gs) for JSON-Coverion)
+* Scoring Results ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0), [App Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoring.gs) for Scoring)
+
+This collaborative approach is not only for continuous improvement, but also to to encourages broader application and continuous improvement.
 
 <br />
 
