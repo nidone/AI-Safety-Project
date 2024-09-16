@@ -40,7 +40,7 @@ This evaluation is based on only 13 queries and is not exhaustive. However, some
 
 Overall, the sophistication and safety of these models are impressive, highlighting the significant investments made to enhance their capabilities.
 <br /><br />
-<img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/GPT-4.svg" alt="GPT-4" /><img src="![alt text](image.png)" alt="Gemini" /><img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/Haiku.svg" alt="Haiku" />
+<img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/GPT-4.svg" alt="GPT-4" /><img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/e0b9ccbd0ac0efe68100fe6b98177f3d75dc16e1/images/Gemini.svg" alt="Gemini" /><img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/Haiku.svg" alt="Haiku" />
 
 ### Additional Models
 
@@ -54,6 +54,6 @@ These insights, although preliminary, highlight the dynamic nature of LLM develo
 
 <br /> <br />
 
-You can find full result in [this spreadsheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
+You can find full results in [this spreadsheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0)
 
 <br /> <br />
