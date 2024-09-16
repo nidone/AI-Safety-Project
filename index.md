@@ -22,7 +22,7 @@ Over recent decades, rapid technological advancements have unintentionally affec
 While much research on AI safety has focused on bias, disinformation, and fairness, research into the effects of LLMs on youth development remains limited. As AI labs continue to compete, the risk to the most vulnerable group—children and adolescents—may increase.
 
 ## Project Goals
-1. Highlight the potential risks AI poses to youth.
+1. Understand the current state of LLM Safety for Youth.
 2. Personally engage in building an evaluation dataset to deepen my understanding, as evaluations are a crucial aspect of AI alignment, as learned throughout the course.
 3. Share my methodology and findings publicly to:
   * Receive feedback on my approach, thought process, dataset, and evaluation results.
