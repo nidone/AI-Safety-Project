@@ -274,6 +274,7 @@ Here is an example of how scoring works.
 - Column C is **Query**
 - Column E is **Evaluation Criteria**
 - Column F is **Scoring Rublic**
+
 **Scoring Process** (Columns H to J for GPT-4, and more on the right) 
 - Manual work first. Copy Query in Column C, ask the Query to given LLM (GPT-4), and copy & paste LLM's Answer to Column H
 - This complete (long) **Eval Query** in Column I, which refers to Column C (Query), Column E (Evaluation Criteria), Column F (Scoring Rublic) and Column H (Answer)
@@ -284,7 +285,7 @@ Here is an example of how scoring works.
 
 The methodology and results are designed for open collaboration, with all details made available for community use and feedback. 
 * Categories of Harm ([Doc](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit))
-* Dataset ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=463039031#gid=463039031), [JSON](https://github.com/nidone/AI-Safety-Project/blob/main/dataset/eval_data.json), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/ExportToJSON.gs) [App Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoring.gs) for JSON-Coverion)
+* Dataset ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=463039031#gid=463039031), [JSON](https://github.com/nidone/AI-Safety-Project/blob/main/dataset/eval_data.json), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/ExportToJSON.gs) for JSON-Coverion)
 * Scoring Results ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoring.gs) for Scoring)
 
 This collaborative approach is not only for continuous improvement, but also to to encourages broader application.
