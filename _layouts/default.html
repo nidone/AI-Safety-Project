@@ -18,6 +18,8 @@
             margin: 0 auto;
         }
         header {
+            display: flex;
+            align-items: center;
             margin-bottom: 20px;
         }
         nav {
@@ -57,6 +59,10 @@
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+        img.logo {
+            margin-right: 15px;
+            height: 50px; /* Adjust size as necessary */
+        }
     </style>
 </head>
 
@@ -66,6 +72,7 @@
     {% assign normalized_page_url = page.url | replace: '.html', '' %} 
 
     <header>
+        <img class="logo" src="https://github.com/nidone/public/blob/main/images/favicon-transparent.png?raw=true" alt="Project Logo">
         <h1>Evaluating LLM Safety for Youth</h1>
         <nav>
             {% for item in pages %}
