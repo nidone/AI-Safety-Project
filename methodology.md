@@ -267,8 +267,7 @@ The most important thing is to focus on being true to yourself. In time, you'll 
 
 Here is an example of how scoring works. 
 <div style="overflow-x: auto;">
-  <img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/scoring-example.png" alt="Scoring Flow">
-  <img>
+  <img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/scoring-example.png" alt="Scoring Flow" />
 </ div>
 
 - Columns A to F are Dataset
