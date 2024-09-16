@@ -19,12 +19,11 @@ Instead, I chose to focus on evaluating LLMs for youth because:
 - Recent technologies have had significant, sometimes negative impacts on this demographic, as noted in the overview section.
 - Evaluations are a critical component of AI alignment, exemplified by concepts like Deep Forgetting, and I wanted to engage deeply with this process.
 
-This project also rekindled my engagement with GitHub after over a decade, and I ventured into writing code on Google Colab and AppScript, calling various APIs
+This project also rekindled my engagement with GitHub after over a decade, and I ventured into writing code on Google Colab and AppScript, calling various APIs.
   
 ## Acknowledgement
 
-I am grateful for the support and insights from the moderators and cohort members of cohorts #16, #19, #20, #22, and #24, especially [Jacob Heimes](https://www.linkedin.com/in/jacob-haimes/) and [Ahmed Ghoor](https://www.linkedin.com/in/ahmedghoor/)
+I am grateful for the support and insights from the moderators and cohort members of cohorts #19, #20 and #22, especially [Jacob Heimes](https://www.linkedin.com/in/jacob-haimes/) and [Ahmed Ghoor](https://www.linkedin.com/in/ahmedghoor/).
 
 Special thanks to the [Digital Agency, the Japan Govenment](https://www.linkedin.com/company/digital-agency-of-japan/). I think my affiliation with you in April 2024 played a role in my admission to this transformative course among 900 other applicants.
-
 <br /> <br />

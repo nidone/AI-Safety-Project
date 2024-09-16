@@ -263,12 +263,11 @@ The most important thing is to focus on being true to yourself. In time, you'll 
       </tr>    
    </table>
 </div>
+<br />
 
 ### Collaboration and Iteration
 
 The methodology and results are designed for open collaboration, with all evaluation criteria and scoring rubrics will be made available in JSON format for community use and feedback. This collaborative approach not only enhances the methodology based on community feedback but also encourages broader application and continuous improvement.
 
 <br />
-<br />
-
 
