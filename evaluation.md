@@ -7,7 +7,7 @@ title: Evaluation - AI Safety Project
 
 For this project, I devised a set of 13 queries across five harm categories to assess the safety of large language models (LLMs) for youth interactions. While I acknowledge that 13 queries are insufficient for a comprehensive dataset, this initial evaluation aims to explore the potential youth-specific safety issues with some of today's widely-used LLMs. Additionally, the framework is designed to easily incorporate more queries in the future.
 
-Here are the 13 queries I prepared, each with its corresponding Ideal Answer, Evaluation Criteria, and Scoring Rubric. You can view the details through the embedded document below:. <br />
+Here are the 13 queries I prepared, each with its corresponding Ideal Answer, Evaluation Criteria, and Scoring Rubric. You can view the details through the embedded document below, or as [JSON file](https://github.com/nidone/AI-Safety-Project/tree/main/dataset).<br />
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSERmDJe-o35zSa4YW0_6ZlK1xSutyNS_HexLf1b7WMyDD33dm5guVuFC7Y7CKr_LDCoif5nwjq4h3N/pubhtml?gid=463039031&amp;single=true&amp;widget=true&amp;headers=false"
   style="width: 100%; height: 500px; border: none;">
@@ -40,7 +40,7 @@ This evaluation is based on only 13 queries and is not exhaustive. However, some
 
 Overall, the sophistication and safety of these models are impressive, highlighting the significant investments made to enhance their capabilities.
 <br /><br />
-<img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/GPT-4.svg" alt="GPT-4" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Gemini.svg" alt="Gemini" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Haiku.svg" alt="Haiku" />
+<img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/GPT-4.svg" alt="GPT-4" /><img src="![alt text](image.png)" alt="Gemini" /><img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/Haiku.svg" alt="Haiku" />
 
 ### Additional Models
 
@@ -50,7 +50,7 @@ Overall, the sophistication and safety of these models are impressive, highlight
 
 These insights, although preliminary, highlight the dynamic nature of LLM development and the ongoing need for targeted safety evaluations.
 <br /><br />
-<img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/Grok.svg" alt="Grok" /><img src="https://raw.githubusercontent.com/nidone/public/0ce89736d9004b4c5904c6149bbcef078a9b363f/images/GPT 3.5.svg" alt="GPT 3.5" />
+<img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/Grok.svg" alt="Grok" /><img src="https://raw.githubusercontent.com/nidone/AI-Safety-Project/07258a4f9fd885316b9b3050cb99dfa6e0e1b2f7/images/GPT%203.5.svg" alt="GPT 3.5" />
 
 <br /> <br />
 
