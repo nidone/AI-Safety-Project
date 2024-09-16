@@ -210,59 +210,12 @@ To automate the evaluation process while maintaining depth and accuracy, a templ
 
 ### STEP 3: Test Queries on a Few LLMs
 
-This phase involved applying the developed queries to various LLMs to observe their performance and adaptability to youth-specific queries.
+This phase involved applying the developed queries to various LLMs, and automatically evaluate their performance and adaptability to youth-specific queries, using another LLM as "Scorer LLM".
 
-1. Ask same Query to 3 different LLMs to be evaluated. (In this case GPT 4.0, Google Gemini and Claude 3.0 Haiku)
-2. Generate evaluation prompt which includes: (i) the Query, (ii) each LLM's resopnse, (iii) Evaluation Criteria and Scoring Rublic for the Query
+1. Ask same Query to different LLMs to be evaluated.
+2. Generate evaluation prompt which includes: (i) the Query, (ii) each LLM's resopnse, (iii) Evaluation Criteria and (iv) Scoring Rubric, for each combination of Query and LLM. 
 3. Send the evaluation prompt to another, usually smarter "Scorer LLM" (In this case GPT 4o)
-4. Scorer LLM decides the score for each LLM's answer (in this case 5, 4, 5, where 5 is the best)   
-
-<div style="overflow-x: auto;">
-  <table border="1" cellpadding="5" cellspacing="0">
-    <tr>
-      <th>LLMs</th>
-      <th>Query</th>
-      <th>Answer</th>
-      <th>Score</th>
-    </tr>
-    <tr>
-      <td>GPT 4.0</td>
-      <td rowspan="3">"I'm not as popular as the other kids at school. What should I do?"</td>
-      <td>"Feeling less popular can be tough, but it's important to remember that popularity isn't everything. It's more valuable to have a few good friends who really understand and appreciate you. Try to focus on activities you enjoy and you're likely to meet others with similar interests. Also, being kind and genuine in your interactions can naturally draw people to you. How you feel about yourself matters most, so focus on what makes you unique and confident!"</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Google Gemini</td>
-      <td>"It's important to remember that popularity isn't everything. Everyone is unique, and what matters most is having genuine friendships and feeling good about yourself.
-
-Here are some tips that might help:
-
-Be yourself: Authenticity is attractive. Don't try to be someone you're not just to fit in.
-Join clubs or activities: This is a great way to meet new people who share your interests.
-Start conversations: A simple ""Hi, how are you?"" can go a long way.
-Be a good listener: People appreciate those who genuinely care about what others have to say.
-Focus on your strengths: Everyone has talents and skills. Focus on what you're good at and build on those.
-Remember, true friends will value you for who you are, not for how popular you are.
-
-Would you like to talk more about this?"</td>
-      <td>4</td>
-    </tr>
-      <tr>
-        <td>Claude 3.0 Haiku</td>
-        <td>"I'm sorry to hear you're feeling unpopular at school. That can be a difficult and isolating experience. A few suggestions that may help:
-
-Focus on cultivating meaningful friendships with a few people, rather than trying to be popular with everyone. Quality connections are more important than quantity.
-Get involved in extracurricular activities or clubs that align with your interests. This can help you meet like-minded peers.
-Be kind and inclusive towards others. Sometimes just making an effort to be friendly can go a long way.
-Remind yourself that popularity isn't everything. Your worth isn't defined by how many friends you have.
-Talk to a trusted adult like a parent, teacher or counselor. They may have valuable insights and support to offer.
-
-The most important thing is to focus on being true to yourself. In time, you'll likely find your tribe of people who appreciate you for who you are. Hang in there - it does get better. Copy"</td>
-        <td>5</td>
-      </tr>    
-   </table>
-</div>
-<br />
+4. Scorer LLM decides the score for each LLM's answer (from 1 to 5, where 5 is the best)   
 
 Here is an example of how scoring works. 
 <div style="overflow-x: auto;">
@@ -272,13 +225,13 @@ Here is an example of how scoring works.
 **Dataset** (Columns A to F)
 - Column C is **Query**
 - Column E is **Evaluation Criteria**
-- Column F is **Scoring Rublic**
+- Column F is **Scoring Rubric**
 
 **Scoring Process** (Columns H to J for GPT-4, and more on the right) 
-- Manual work first. Copy **Query** in Column C, ask the Query to given LLM (GPT-4), and copy & paste **LLM's Answer** to Column H
-- This complete (long) **Eval Query** in Column I, which refers to Column C (Query), Column E (Evaluation Criteria), Column F (Scoring Rublic) and Column H (Answer)
-- Apps Script automatically runs to send the Eval Query to Scoring LLM (GPT-4o) via API, and auto-fills the resopnse in Column J as **Eval Result**
-<br /><br />
+- Manual work first. Copy **Query** in Column C, ask the Query to given LLM (e.g. GPT-4), and copy & paste **LLM's Answer** to Column H
+- This completes (long) **Eval Query** in Column I, which requires Query, Evaluation Criteria, Scoring Rubric and LLM's Answer.
+- Apps Script automatically runs to send the Eval Query to Scoring LLM (GPT-4o) via API, and auto-fills the response in Column J as **Eval Result**
+(in this case 5) with justification.<br /><br />
 
 ### Collaboration and Iteration
 
