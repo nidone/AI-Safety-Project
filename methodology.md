@@ -240,7 +240,7 @@ The methodology and results are designed for open collaboration, with all detail
 * Dataset ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=463039031#gid=463039031), [JSON](https://github.com/nidone/AI-Safety-Project/blob/main/dataset/eval_data.json), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/ExportToJSON.gs) for JSON-Coverion)
 * Scoring Results ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoring.gs) for Scoring)
 
-This collaborative approach is not only for continuous improvement, but also to to encourages broader application.
+This collaborative approach is not only for continuous improvement, but also to encourages broader application.
 
 <br />
 
