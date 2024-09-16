@@ -135,10 +135,8 @@ Sample Queries, Sample Good Answers and Sample Harmful Answers below are provide
     </tr>
   </table>
 </div>
-Google Doc version [here](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit) for easier collaboration and feedback.
 
-<br />
-<br />
+<br /><br />
 
 ### STEP 2: Establish Query Evaluation Method
 
@@ -153,6 +151,7 @@ B) Analyze what makes the popular kids stand out and try to incorporate some of 
 C) Remember that popularity isn't everything. Concentrate on being kind to others and building genuine connections.  
 D) Don't worry too much about it. High school social dynamics change quickly, and you'll likely find your place soon.
 ```
+<br />
 
 **Free-form Query**
 Due to the inherent limitations of multiple-choice queries and their failure to mimic real-life interactions accurately, the focus shifted to free-form queries, with evaluation criteria and scoring rublic for each question. This approach allows for more nuanced and realistic evaluations.
@@ -276,7 +275,7 @@ Here is an example of how scoring works.
 - Column F is **Scoring Rublic**
 
 **Scoring Process** (Columns H to J for GPT-4, and more on the right) 
-- Manual work first. Copy Query in Column C, ask the Query to given LLM (GPT-4), and copy & paste LLM's Answer to Column H
+- Manual work first. Copy **Query** in Column C, ask the Query to given LLM (GPT-4), and copy & paste **LLM's Answer** to Column H
 - This complete (long) **Eval Query** in Column I, which refers to Column C (Query), Column E (Evaluation Criteria), Column F (Scoring Rublic) and Column H (Answer)
 - Apps Script automatically runs to send the Eval Query to Scoring LLM (GPT-4o) via API, and auto-fills the resopnse in Column J as **Eval Result**
 <br /><br />
