@@ -3,7 +3,7 @@ layout: default
 title: Home - Evaluating LLM Safety for Youth
 ---
 
-# AI Safety Course Project
+## AI Safety Course Project
 
 This project represents my final contribution to [the AI Safety Fundamentals: AI Alignment Course](https://aisafetyfundamentals.com/alignment/).
 
