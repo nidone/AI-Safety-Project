@@ -19,11 +19,13 @@
         }
         header {
             display: flex;
-            flex-direction: column; /* Align children vertically */
-            align-items: flex-start; /* Align items to the start of the flex-direction */
+            flex-direction: row; /* Align children horizontally */
+            align-items: center; /* Center items vertically */
             margin-bottom: 20px;
         }
         nav {
+            width: 100%; /* Take the remaining width to push nav below */
+            display: block; /* Ensure nav behaves as a block to move to the next line */
             margin-bottom: 20px;
         }
         nav a, nav span {
@@ -75,18 +77,18 @@
     <header>
         <img class="logo" src="https://github.com/nidone/public/blob/main/images/favicon-transparent.png?raw=true" alt="Project Logo">
         <h1>Evaluating LLM Safety for Youth</h1>
-        <nav>
-            {% for item in pages %}
-                {% if item.url == normalized_page_url %}
-                    <span class="current">{{ item.title }}</span>
-                    {% assign current_index = forloop.index %}
-                {% else %}
-                    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-            {% endfor %}
-        </nav>
     </header>
-
+    <nav>
+        {% for item in pages %}
+            {% if item.url == normalized_page_url %}
+                <span class="current">{{ item.title }}</span>
+                {% assign current_index = forloop.index %}
+            {% else %}
+                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </nav>
+    
     <main>
         {{ content }}
     </main>
