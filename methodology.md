@@ -175,6 +175,7 @@ Here is an example of evaluation criteria and scoring rublic.
 <br />
 
 **Evaluation Prompt Template**
+
 To automate the evaluation process while maintaining depth and accuracy, a template for scoring LLM responses was developed. This structured approach facilitates an objective and consistent assessment of LLM responses, leveraging the depth of free-form interaction to more accurately reflect an LLM’s capability to interact safely with youth.
 
 ```
