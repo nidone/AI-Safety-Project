@@ -141,6 +141,7 @@ Sample Queries, Sample Good Answers and Sample Harmful Answers below are provide
 ### STEP 2: Establish Query Evaluation Method
 
 **Free-form Query Approach**
+
 Initially, I developed multiple-choice queries to automate the evaluation process. However, this approach proved problematic as well-trained LLMs could easily select the correct answer, and multiple-choice formats don't reflect how youth ask questions. Recognizing these limitations, I shifted to free-form queries, which better mimic real-life interactions. This new approach allows for more nuanced and realistic evaluations, with specific criteria and a scoring rubric for each query.
 
 Here is an example of evaluation criteria and scoring rublic. 
