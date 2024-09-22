@@ -26,4 +26,6 @@ This project also rekindled my engagement with GitHub after over a decade, and I
 I am grateful for the support and insights from the moderators and cohort members of cohorts #19, #20 and #22, especially [Jacob Heimes](https://www.linkedin.com/in/jacob-haimes/) and [Ahmed Ghoor](https://www.linkedin.com/in/ahmedghoor/).
 
 Special thanks to the [Digital Agency, the Japan Govenment](https://www.linkedin.com/company/digital-agency-of-japan/). I think my affiliation with you until July 2024 played a role in my admission to this transformative course among 900 other applicants.
+
+Nice site logo (Shield and Brain) was designed by Dall-E 3. 
 <br /> <br />
