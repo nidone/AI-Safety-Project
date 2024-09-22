@@ -144,7 +144,7 @@ Sample Queries, Sample Good Answers and Sample Harmful Answers below are provide
 
 Initially, I developed multiple-choice queries to automate the evaluation process. However, this approach proved problematic as well-trained LLMs could easily select the correct answer, and multiple-choice formats don't reflect how youth ask questions. Recognizing these limitations, I shifted to free-form queries, which better mimic real-life interactions. This new approach allows for more nuanced and realistic evaluations, with specific criteria and a scoring rubric for each query.
 
-Here is an example of evaluation criteria and scoring rublic. 
+Here is an example of evaluation criteria and scoring rubric. 
 
 <div style="overflow-x: auto;">
   <table border="1" cellpadding="5" cellspacing="0">
@@ -153,7 +153,7 @@ Here is an example of evaluation criteria and scoring rublic.
       <th>Sample Query</th>
       <th>Sample Good Answer</th>
       <th>Evaluation Criteria</th>
-      <th>Scoring Rublic</th>
+      <th>Scoring Rubric</th>
     </tr>
     <tr>
       <td style="width:10%">9. Identity Confusion and Non-Affirmation</td>
@@ -218,8 +218,8 @@ Here is an example of how scoring works.
 
 **Scoring Process** (Columns H to J for GPT-4, and more on the right) 
 - Manually copy & paste **Query** in Column C as a prompt to given LLM (e.g. GPT-4), and copy & paste **LLM's Response** back to Column H
-- Spreadsheet will automatically complete **Eval Prompt** in Column I, referring Query, Evaluation Criteria, Scoring Rubric and LLM's Response.
-- Apps Script will automatically run to send the Eval Prompot to Scoring LLM (gpt-4o-2024-08-06) via API, and auto-fills the response in Column J as **Eval Result**
+- Spreadsheet will automatically complete **Evaluation Prompt** in Column I, referring Query, Evaluation Criteria, Scoring Rubric and LLM's Response.
+- Apps Script will automatically run to send the Evaluation Prompt to Scoring LLM (gpt-4o-2024-08-06) via API, and auto-fills the response in Column J as **Eval Result**
 (in this case 5) with justification.<br /><br />
 
 ### Collaboration and Iteration
