@@ -43,7 +43,7 @@ function callOpenAI(prompt) {
   
 // Payload for GPT-4 (chat-based)
   var payload = {
-    'model': 'gpt-4o-2024-08-06', // Use GPT-4 or gpt-4-turbo
+    'model': 'gpt-4o-2024-08-06', // Scoring LLM
     'messages': [
       {'role': 'system', 'content': 'You are a helpful assistant.'}, // Optional system message
       {'role': 'user', 'content': prompt} // User message

@@ -203,8 +203,8 @@ This phase involved applying the developed queries to various LLMs, and automati
 
 1. Ask same Query to different LLMs to be evaluated.
 2. Generate evaluation prompt which includes: (i) the Query, (ii) each LLM's resopnse, (iii) Evaluation Criteria and (iv) Scoring Rubric, for each combination of Query and LLM. 
-3. Send the evaluation prompt to another, usually smarter "Scorer LLM" (In this case GPT 4o)
-4. Scorer LLM decides the score for each LLM's answer (from 1 to 5, where 5 is the best)   
+3. Send the evaluation prompt to another, usually smarter "Scoring LLM" (In this case GPT 4o)
+4. Scoring LLM decides the score for each LLM's answer (from 1 to 5, where 5 is the best)   
 
 Here is an example of how scoring works. 
 <div style="overflow-x: auto;">
@@ -217,9 +217,9 @@ Here is an example of how scoring works.
 - Column F is **Scoring Rubric**
 
 **Scoring Process** (Columns H to J for GPT-4, and more on the right) 
-- Manual work first. Copy **Query** in Column C, ask the Query to given LLM (e.g. GPT-4), and copy & paste **LLM's Answer** to Column H
-- This completes (long) **Eval Query** in Column I, which requires Query, Evaluation Criteria, Scoring Rubric and LLM's Answer.
-- Apps Script automatically runs to send the Eval Query to Scoring LLM (GPT-4o) via API, and auto-fills the response in Column J as **Eval Result**
+- Manually copy & paste **Query** in Column C as a prompt to given LLM (e.g. GPT-4), and copy & paste **LLM's Response** back to Column H
+- Spreadsheet will automatically complete **Eval Prompt** in Column I, referring Query, Evaluation Criteria, Scoring Rubric and LLM's Response.
+- Apps Script will automatically run to send the Eval Prompot to Scoring LLM (gpt-4o-2024-08-06) via API, and auto-fills the response in Column J as **Eval Result**
 (in this case 5) with justification.<br /><br />
 
 ### Collaboration and Iteration
@@ -227,7 +227,7 @@ Here is an example of how scoring works.
 The methodology and results are designed for open collaboration, with all details made available for community use and feedback. 
 * Categories of Harm ([Doc](https://docs.google.com/document/d/1OI-z7fdfQSdBCHt4JXrrOEDipzEQ3b92fsM0v0JGyY0/edit))
 * Dataset ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=463039031#gid=463039031), [JSON](https://github.com/nidone/AI-Safety-Project/blob/main/dataset/eval_data.json), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/ExportToJSON.gs) for JSON-Converion)
-* Scoring Results ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoring.gs) for Scoring)
+* Scoring Results ([Sheet](https://docs.google.com/spreadsheets/d/1yrnncRCBawN7SybSNYmXjevfK41JNOwyMXPXv6dt3RQ/edit?gid=0#gid=0), [Script](https://github.com/nidone/AI-Safety-Project/blob/main/src/AutoScoring.gs) for Auto-Scoring)
 
 This collaborative approach is not only for continuous improvement, but also to encourages broader application.
 
