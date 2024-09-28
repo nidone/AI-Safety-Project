@@ -9,8 +9,6 @@ This project represents my final contribution to [the AI Safety Fundamentals: AI
 
 In this initiative, I aim to assess the safety of large language models (LLMs), specifically their potential adverse impacts on the emotional and cognitive development of youth. These impacts include diminished real-world interactions, negative effects on learning, exposure to inappropriate content, and the provision of misleading advice.
 
-As advanced AI systems touch every aspect of life at an exponential pace, the focus of the AI Safety community has largely been on AI-specific risks. However, we’ve seen that when new technologies prevail at such speed, the most vulnerable populations can be profoundly impacted, often without adequate safeguards. The most recent example includes YouTube, Instagram, and smartphones. It’s surprising that more research hasn’t been dedicated to the risks AI poses to youth, despite this potentially being one of the most significant unknown risks we now face.
-
 You can view a quick summary in [this 3-minute video](https://www.youtube.com/watch?v=bJ-xAjvkxzw) or find more details on my [GitHub repository](https://github.com/nidone/AI-Safety-Project).
 
 ## Background
@@ -21,7 +19,9 @@ Over recent decades, rapid technological advancements have unintentionally affec
 * The book [Anxious Generation](https://www.anxiousgeneration.com/book), which discusses how smartphones and social networks, particularly Instagram, have potentially caused irreversible harm to adolescents.
 * Concerns raised by Oxford researchers that AI ethics often neglect children's issues ([source](https://www.ox.ac.uk/news/2024-03-21-ai-ethics-are-ignoring-children-say-oxford-researchers))
 
-While much research on AI safety has focused on bias, disinformation, and fairness, research into the effects of LLMs on youth development remains limited. As AI labs continue to compete, the risk to the most vulnerable group—children and adolescents—may increase.
+As advanced AI systems rapidly integrate into daily life, much of the AI Safety community’s attention has focused on risks such as bias, disinformation, and fairness. However, when new technologies like YouTube, Instagram, and smartphones became widely adopted at an exponential pace, the most vulnerable populations—particularly youth—were profoundly impacted, often without adequate safeguards.
+
+Despite these precedents, research on how LLMs specifically affect youth development remains limited. As AI labs continue to compete and push for greater market share, the risk to children and adolescents may increase. This issue could potentially be one of the significant "Unknown Risks" that AI safety must address more proactively.
 
 ## Project Goals
 1. Understand the current state of LLM Safety for Youth.
