@@ -9,7 +9,7 @@ This project represents my final contribution to [the AI Safety Fundamentals: AI
 
 In this initiative, I aim to assess the safety of large language models (LLMs), specifically their potential adverse impacts on the emotional and cognitive development of youth. These impacts include diminished real-world interactions, negative effects on learning, exposure to inappropriate content, and the provision of misleading advice.
 
-You can view a quick summary in [this 3-minute video](https://www.youtube.com/watch?v=JBEomacDt6I) or find more details on my [GitHub repository](https://github.com/nidone/AI-Safety-Project).
+You can view a quick summary in [this 3-minute video](https://www.youtube.com/watch?v=bJ-xAjvkxzw) or find more details on my [GitHub repository](https://github.com/nidone/AI-Safety-Project).
 
 ## Background
 
