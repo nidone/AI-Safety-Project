@@ -36,6 +36,7 @@ This evaluation is based on only 13 queries and is not exhaustive. However, some
 
 - **Performance:** These models performed exceptionally well in categories such as Cognitive Development and Learning, Emotional and Psychological Well-being, and Social Interaction and Identity Formation.
 - **Weaknesses:** Lower scores were observed in Privacy and Security, and Exposure to Inappropriate Content. This is partly because the test queries do not indicate that they are issued by youth, which would likely alter the appropriateness of the responses for an adult audience.
+  - However, once LLMs become more widely adopted, operators may be held responsible for addressing this challenge, just as [YouTube was fined](https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law) and subsequently reduced ads on content likely intended for kids, regardless of the user’s actual age. As LLMs continue to scale, the standards for ensuring safety will inevitably rise, presenting an opportunity for improvement.
 - **Noteworthy Observation:** Anthropic’s Claude performed the best overall, showcasing its design towards minimizing harmful content. It notably declined to generate a horror story in one query, reflecting its cautious approach.
 
 Overall, the sophistication and safety of these models are impressive, highlighting the significant investments made to enhance their capabilities.

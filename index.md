@@ -9,6 +9,8 @@ This project represents my final contribution to [the AI Safety Fundamentals: AI
 
 In this initiative, I aim to assess the safety of large language models (LLMs), specifically their potential adverse impacts on the emotional and cognitive development of youth. These impacts include diminished real-world interactions, negative effects on learning, exposure to inappropriate content, and the provision of misleading advice.
 
+As advanced AI systems touch every aspect of life at an exponential pace, the focus of the AI Safety community has largely been on AI-specific risks. However, we’ve seen that when new technologies prevail at such speed, the most vulnerable populations can be profoundly impacted, often without adequate safeguards. The most recent example includes YouTube, Instagram, and smartphones. It’s surprising that more research hasn’t been dedicated to the risks AI poses to youth, despite this potentially being one of the most significant unknown risks we now face.
+
 You can view a quick summary in [this 3-minute video](https://www.youtube.com/watch?v=bJ-xAjvkxzw) or find more details on my [GitHub repository](https://github.com/nidone/AI-Safety-Project).
 
 ## Background
