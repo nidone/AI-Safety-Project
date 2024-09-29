@@ -23,7 +23,7 @@ This project also rekindled my engagement with GitHub after over a decade, and I
   
 ## Acknowledgement
 
-I am grateful for the support and insights from the moderators and cohort members of cohorts #19, #20 and #22, especially [Jacob Haimes](https://www.linkedin.com/in/jacob-haimes/) and [Ahmed Ghoor](https://www.linkedin.com/in/ahmedghoor/).
+I am grateful for the support and insights from the moderators and cohort members of cohorts #19, #20 and #22, especially [Jacob Haimes](https://www.linkedin.com/in/jacob-haimes/), [Ahmed Ghoor](https://www.linkedin.com/in/ahmedghoor/) and [Adam Jones](https://www.linkedin.com/in/domdomegg/).
 
 Special thanks to the [Digital Agency, the Japan Govenment](https://www.linkedin.com/company/digital-agency-of-japan/). I think my affiliation with you until July 2024 played a role in my admission to this transformative course among 900 other applicants.
 
