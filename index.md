@@ -17,7 +17,7 @@ Over recent decades, rapid technological advancements have unintentionally affec
 
 * Google and YouTube, fined $170 million for breaching children's privacy laws ([source](https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law))
 * The book [Anxious Generation](https://www.anxiousgeneration.com/book), which discusses how smartphones and social networks, particularly Instagram, have potentially caused irreversible harm to adolescents.
-* Concerns raised by Oxford researchers that AI ethics often neglect children's issues ([source](https://www.ox.ac.uk/news/2024-03-21-ai-ethics-are-ignoring-children-say-oxford-researchers))
+* Concerns raised by Oxford researchers that AI ethics often neglect children's issues ([source](https://www.ox.ac.uk/news/2024-03-21-ai-ethics-are-ignoring-children-say-oxford-researchers)) and by UK Children's Commissioner ([source](https://www.childrenscommissioner.gov.uk/blog/the-childrens-commissioners-view-on-artificial-intelligence-ai/)).
 
 As advanced AI systems rapidly integrate into daily life, much of the AI Safety community’s attention has focused on AI-specific risks such as bias, disinformation, and fairness. However, when new technologies like YouTube, Instagram, and smartphones became widely adopted at an exponential pace, the most vulnerable populations—particularly youth—were profoundly impacted, often without adequate safeguards.
 

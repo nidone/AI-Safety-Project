@@ -17,7 +17,7 @@ The initial step was to establish a robust framework of "Categories of Harm" tha
 
 - **Sources:** The framework draws on resources like [HELM](https://crfm.stanford.edu/helm/classic/latest/) (Holistic Evaluation of Language Models) and Common Sense Media’s [AI Rating Framework](https://www.commonsensemedia.org/aiframework) to ensure the categories are youth-centric and reflect real-world concerns.
 - **Theoretical Foundations:** It incorporates insights from [developmental theories by Piaget]((https://www.verywellmind.com/piagets-stages-of-cognitive-development-2795457#toc-the-formal-operational-stage-of-cognitive-development)) and [Erikson's Stages of Psychosocial Development](https://www.verywellmind.com/erik-eriksons-stages-of-psychosocial-development-2795740), which highlight the cognitive and psychosocial stages relevant to adolescents.
-- **Legal and Ethical Considerations:** Considerations from [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) and guidelines from entities like the APA ensure the inclusion of privacy and ethical standards tailored to children.
+- **Legal and Ethical Considerations:** Considerations from [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) and guidelines from entities like the [APA](https://www.apa.org/topics/social-media-internet/technology-use-children) ensure the inclusion of privacy and ethical standards tailored to children.
 
 Sample Queries, Sample Good Answers and Sample Harmful Answers below are provided to clarify what each category represents. These are deliberately simplistic and would likely be easy for LLMs to handle; the next step involves creating more nuanced queries.
 
