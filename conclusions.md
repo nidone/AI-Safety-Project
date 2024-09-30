@@ -5,19 +5,19 @@ title: Conclusions - AI Safety Project
 
 # Conclusions
 
-- I have highlighted the importance of specifically evaluating LLMs concerning youth safety.
+- I have emphasized the critical importance of evaluating LLMs specifically in the context of youth safety.
 - Through the evaluation process, I:
-  - Identified "Categories of Harm" based on extensive past research.
+  - Prototyped “Categories of Harm” based on extensive past research. Though still in a rudimentary stage, these categories have proven useful in streamlining the development of the dataset.
   - Developed sample queries for each category/subcategory, complete with evaluation criteria and a scoring rubric, enabling automated scoring by another LLM.
   - Conducted evaluations using a small dataset across five popular LLMs.
-- Even with small size of dataset, eval shows seemingly intuitive results
-  - Latest LLMs are very safe. Their improvement in the past few years is very solid. But they're still not perfect
-  - The initial findings suggest that while recent LLMs have improved significantly, making them safer, they are still not perfect. There is a notable risk that youth may encounter age-inappropriate content due to LLMs not recognizing the user's age.
+- Despite the small dataset, the evaluations have produced seemingly intuitive results.
+  - Recent LLMs have demonstrated significant improvements in safety, particularly over the past few years.
+  - However, they remain imperfect. Initial findings suggest an occasional risk of exposing youth to age-inappropriate content, largely due to LLMs' inability to reliably recognize the user's age.
 
 ## Discussions
 
 - **Categories of Harm** served as a foundational element but are far from comprehensive. Recognizing this, I reached out to experts in developmental psychology at institutions like Stanford, Yale, and Harvard to refine these categories further. Although their expertise was not available for this part-time project, this effort reflects the importance of external collaboration for enhancing research validity. 
-- **Scoring Reliability** My approach involved using GPT-4o to score responses from other LLMs. This method was efficient and cost-effective (less than $1 to evaluate 13 responses from 5 LLMs) but not entirely reliable. Scoring inconsistencies could happen between different versions of GPT-4 family, and even within the same version.
+- **LLM-driven Scoring** My approach involved using GPT-4o to score responses from other LLMs. As expected, scoring was not always consistent. Scoring inconsistencies could occur between different versions of the GPT-4 family, and even within the same version. However, this method seems to strike the right balance between accuracy and efficiency, while remaining cost-effective (less than $1 to evaluate 13 responses from 5 LLMs).
 
 ## Future Work
 
