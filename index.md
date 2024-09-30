@@ -5,7 +5,7 @@ title: Home - Evaluating LLM Safety for Youth
 
 # AI Safety Course Project
 
-This project represents my final contribution to [the AI Safety Fundamentals: AI Alignment Course](https://aisafetyfundamentals.com/alignment/).
+This project represents my final contribution to [the AI Safety Fundamentals: AI Alignment Course](https://aisafetyfundamentals.com/alignment/), held in 2024.
 
 In this initiative, I aim to assess the safety of large language models (LLMs), specifically their potential adverse impacts on the emotional and cognitive development of youth. These impacts include diminished real-world interactions, negative effects on learning, exposure to inappropriate content, and the provision of misleading advice.
 
@@ -21,7 +21,7 @@ Over recent decades, rapid technological advancements have unintentionally affec
 
 As advanced AI systems rapidly integrate into daily life, much of the AI Safety community’s attention has focused on AI-specific risks such as bias, disinformation, and fairness. However, when new technologies like YouTube, Instagram, and smartphones became widely adopted at an exponential pace, the most vulnerable populations—particularly youth—were profoundly impacted, often without adequate safeguards.
 
-Despite these precedents, research on how LLMs specifically affect youth development remains limited. As AI labs continue to compete and push for greater market share, the risk to children and adolescents may increase. This issue could potentially be one of the significant "Unknown Risks" that AI safety must address more proactively.
+Despite these precedents, research on how LLMs specifically affect youth development remains limited. As AI labs continue to compete and push for greater market share, the risk to children and adolescents may increase. I think this issue could potentially be one of the significant "Unknown Risks" that AI safety must address more proactively.
 
 ## Project Goals
 1. Understand the current state of LLM Safety for Youth.
