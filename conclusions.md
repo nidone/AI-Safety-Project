@@ -17,7 +17,7 @@ title: Conclusions - AI Safety Project
 ## Discussions
 
 - **Categories of Harm** served as a foundational element but are far from comprehensive. Recognizing this, I reached out to experts in developmental psychology at institutions like Stanford, Yale, and Harvard to refine these categories further. Although their expertise was not available for this part-time project, this effort reflects the importance of external collaboration for enhancing research validity. 
-- **LLM-driven Scoring** My approach involved using GPT-4o to score responses from other LLMs. As expected, scoring was not always consistent. Scoring inconsistencies could occur between different versions of the GPT-4 family, and even within the same version. However, this method seems to strike the right balance between accuracy and efficiency, while remaining cost-effective (less than $1 to evaluate 13 responses from 5 LLMs).
+- **LLM-driven Scoring** involved using GPT-4o to score responses from other LLMs. As expected, scoring by this aprroach was not always consistent -- inconsistencies could occur between different versions of the GPT-4 family, and even within the same version. However, this method seems to strike the right balance between accuracy and efficiency, while remaining cost-effective (less than $1 to evaluate 13 responses from 5 LLMs).
 
 ## Future Work
 
