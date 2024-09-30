@@ -19,7 +19,7 @@ Instead, I chose to focus on evaluating LLMs for youth because:
 - Recent technologies have had significant, sometimes negative impacts on this demographic, as noted in the overview section.
 - Evaluations are a critical component of AI alignment, exemplified by concepts like Deep Forgetting, and I wanted to engage deeply with this process.
 
-This project also rekindled my engagement with GitHub after over a decade, building websites, writing code in Google Collab and Apps Script, and calling various APIs."
+This project also rekindled my engagement with GitHub after over a decade, building a website, writing code in Google Collab and Apps Script, and calling various APIs.
   
 ## Acknowledgement
 
